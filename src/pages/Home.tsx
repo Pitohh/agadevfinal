@@ -19,19 +19,19 @@ const Home = () => {
     {
       title: "Lancement officiel de l'AGADEV",
       description: "L'Agence Gabonaise pour le Développement de l'Économie Verte a été officiellement lancée par le Président de la République.",
-      imageSrc: "https://images.pexels.com/photos/2108394/pexels-photo-2108394.jpeg",
+      imageSrc: "/foret-gabonaise-2.jpg.jpg",
       date: "15 janvier 2025"
     },
     {
       title: "Signature d'un partenariat stratégique avec le CENAREST",
       description: "L'AGADEV et le Centre National de la Recherche Scientifique et Technologique unissent leurs forces.",
-      imageSrc: "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg",
+      imageSrc: "/foret-gabonaise-3.jpg.jpg",
       date: "3 février 2025"
     },
     {
       title: "Participation à la COP30 à Belém",
       description: "L'AGADEV représentera le Gabon lors de la 30ème Conférence des Parties sur les changements climatiques au Brésil.",
-      imageSrc: "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg",
+      imageSrc: "/foret-gabonaise-4.jpg.jpg",
       date: "7 mars 2025"
     }
   ];
@@ -81,7 +81,7 @@ const Home = () => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg" 
+                src="/foret-gabonaise-5.jpg.jpg" 
                 alt="Forêt gabonaise" 
                 className="w-full h-[400px] object-cover"
               />
@@ -173,17 +173,17 @@ const Home = () => {
       </section>
       
       {/* Call to Action */}
-      <section className="py-16 bg-gradient-to-r from-green-forest to-green-soft text-white text-center">
+      <section className="py-16 bg-gradient-to-r from-green-forest to-green-medium text-white text-center">
         <div className="container-custom">
           <h2 className="text-3xl font-bold mb-6">Participez à la transition écologique</h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg text-white">
             Découvrez nos appels à projets et opportunités pour contribuer au développement de l'économie verte au Gabon.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button to="/opportunites" variant="secondary" size="lg">
+            <Button to="/opportunites" variant="primary" size="lg">
               Voir les opportunités
             </Button>
-            <Button to="/contact" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-green-forest">
+            <Button to="/contact" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-green-medium">
               Nous contacter
             </Button>
           </div>

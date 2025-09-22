@@ -20,7 +20,7 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
       center && 'text-center',
       className
     )}>
-      <h2 className="text-3xl lg:text-4xl font-bold text-green-forest mb-3">
+      <h2 className="text-3xl lg:text-4xl font-bold text-green-medium mb-3">
         {title}
       </h2>
       {subtitle && (
@@ -29,7 +29,7 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
         </p>
       )}
       <div className={clsx(
-        'h-1 bg-copper w-20 mt-4',
+        'h-1 bg-yellow-400 w-20 mt-4',
         center && 'mx-auto'
       )} />
     </div>

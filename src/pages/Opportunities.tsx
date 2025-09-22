@@ -5,7 +5,7 @@ import Button from '../components/ui/Button';
 import { Download, Calendar, MapPin, Clock, Briefcase } from 'lucide-react';
 
 const Opportunities = () => {
-  const bannerImage = "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg";
+  const bannerImage = "/foret-gabonaise-8.jpg.jpg";
   
   // Tab state
   const [activeTab, setActiveTab] = useState<'projects' | 'jobs'>('projects');
@@ -91,8 +91,8 @@ const Opportunities = () => {
             <button
               className={`pb-4 px-6 font-medium text-lg transition-colors ${
                 activeTab === 'projects' 
-                  ? 'text-green-forest border-b-2 border-green-forest' 
-                  : 'text-blue-black/70 hover:text-green-forest'
+                  ? 'text-green-medium border-b-2 border-green-medium' 
+                  : 'text-blue-black/70 hover:text-green-medium'
               }`}
               onClick={() => setActiveTab('projects')}
             >
@@ -101,8 +101,8 @@ const Opportunities = () => {
             <button
               className={`pb-4 px-6 font-medium text-lg transition-colors ${
                 activeTab === 'jobs' 
-                  ? 'text-green-forest border-b-2 border-green-forest' 
-                  : 'text-blue-black/70 hover:text-green-forest'
+                  ? 'text-green-medium border-b-2 border-green-medium' 
+                  : 'text-blue-black/70 hover:text-green-medium'
               }`}
               onClick={() => setActiveTab('jobs')}
             >
@@ -126,25 +126,25 @@ const Opportunities = () => {
                 {projectCalls.map((call, index) => (
                   <div key={index} className="bg-white border border-beige-light rounded-lg shadow-md overflow-hidden">
                     <div className="p-6">
-                      <h3 className="text-2xl font-bold mb-3 text-green-forest">{call.title}</h3>
+                      <h3 className="text-2xl font-bold mb-3 text-green-medium">{call.title}</h3>
                       <p className="text-blue-black/80 mb-4">{call.description}</p>
                       
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                         <div className="bg-beige-light/20 p-3 rounded">
-                          <p className="font-semibold text-green-forest">Date limite</p>
+                          <p className="font-semibold text-green-medium">Date limite</p>
                           <div className="flex items-center mt-1">
-                            <Calendar className="w-4 h-4 text-copper mr-2" />
+                            <Calendar className="w-4 h-4 text-yellow-400 mr-2" />
                             <span>{call.deadline}</span>
                           </div>
                         </div>
                         
                         <div className="bg-beige-light/20 p-3 rounded">
-                          <p className="font-semibold text-green-forest">Éligibilité</p>
+                          <p className="font-semibold text-green-medium">Éligibilité</p>
                           <p className="mt-1">{call.eligibility}</p>
                         </div>
                         
                         <div className="bg-beige-light/20 p-3 rounded">
-                          <p className="font-semibold text-green-forest">Financement</p>
+                          <p className="font-semibold text-green-medium">Financement</p>
                           <p className="mt-1">{call.funding}</p>
                         </div>
                       </div>
@@ -165,7 +165,7 @@ const Opportunities = () => {
               
               {/* How to apply */}
               <div className="mt-12 bg-beige-light/30 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4 text-green-forest">Comment soumettre un projet ?</h3>
+                <h3 className="text-2xl font-bold mb-4 text-green-medium">Comment soumettre un projet ?</h3>
                 <ol className="list-decimal pl-6 space-y-3">
                   <li>Téléchargez le dossier d'appel à projets correspondant à votre thématique</li>
                   <li>Remplissez le formulaire de candidature en détaillant votre projet</li>
@@ -191,8 +191,8 @@ const Opportunities = () => {
                   <div key={index} className="bg-white border border-beige-light rounded-lg shadow-md overflow-hidden h-full">
                     <div className="p-6">
                       <div className="flex justify-between items-start mb-3">
-                        <h3 className="text-xl font-bold text-green-forest">{job.title}</h3>
-                        <span className="bg-green-forest/10 text-green-forest text-xs px-2 py-1 rounded">
+                        <h3 className="text-xl font-bold text-green-medium">{job.title}</h3>
+                        <span className="bg-green-medium/10 text-green-medium text-xs px-2 py-1 rounded">
                           {job.type}
                         </span>
                       </div>
@@ -211,7 +211,7 @@ const Opportunities = () => {
                       <p className="text-blue-black/80 mb-4">{job.description}</p>
                       
                       <div className="mb-4">
-                        <h4 className="font-semibold mb-2 text-green-forest flex items-center">
+                        <h4 className="font-semibold mb-2 text-green-medium flex items-center">
                           <Briefcase className="w-4 h-4 mr-1" /> Profil recherché
                         </h4>
                         <p className="text-blue-black/80 text-sm">{job.requirements}</p>
@@ -227,7 +227,7 @@ const Opportunities = () => {
               
               {/* General application */}
               <div className="mt-12 bg-beige-light/30 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4 text-green-forest">Candidature spontanée</h3>
+                <h3 className="text-2xl font-bold mb-4 text-green-medium">Candidature spontanée</h3>
                 <p className="mb-6">
                   Vous ne trouvez pas d'offre correspondant à votre profil, mais souhaitez rejoindre l'AGADEV ? N'hésitez pas à nous envoyer une candidature spontanée.
                 </p>
@@ -265,7 +265,7 @@ const Opportunities = () => {
             
             <div className="rounded-lg overflow-hidden shadow-md">
               <img 
-                src="https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg" 
+                src="/foret-gabonaise-9.jpg.jpg" 
                 alt="Stagiaires de l'AGADEV" 
                 className="w-full h-[400px] object-cover"
               />
@@ -278,7 +278,7 @@ const Opportunities = () => {
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8 text-green-forest">Ils nous ont rejoints</h2>
+            <h2 className="text-3xl font-bold mb-8 text-green-medium">Ils nous ont rejoints</h2>
             <blockquote className="text-xl italic mb-6 text-blue-black/80">
               "Rejoindre l'AGADEV a été une décision qui a transformé ma carrière. Ici, j'ai l'opportunité de travailler sur des projets innovants qui ont un impact réel sur l'environnement et les communautés locales. L'ambiance de travail est stimulante et l'équipe passionnée."
             </blockquote>

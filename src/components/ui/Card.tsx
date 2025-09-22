@@ -36,13 +36,15 @@ const Card: React.FC<CardProps> = ({
       )}
       <div className="p-5">
         <div className="flex items-start">
-          {icon && <div className="mr-3 text-green-forest">{icon}</div>}
-          <h3 className="font-semibold text-xl mb-2 text-green-forest">{title}</h3>
+          {icon && <div className="mr-3 text-green-medium">{icon}</div>}
+          <h3 className="font-semibold text-xl mb-2 text-green-medium">{title}</h3>
         </div>
         <p className="text-blue-black/80 mb-4">{description}</p>
         {(to || href) && (
           <div className="text-sm font-medium text-copper hover:text-copper/80 transition-colors">
+          <div className="text-sm font-medium text-yellow-400 hover:text-yellow-300 transition-colors">
             En savoir plus →
+          </div>
           </div>
         )}
       </div>

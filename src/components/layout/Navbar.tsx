@@ -52,8 +52,8 @@ const Navbar = () => {
                   to={link.path}
                   className={({ isActive }) =>
                     clsx(
-                      'text-blue-black hover:text-green-forest transition-colors font-medium',
-                      isActive && 'text-green-forest font-bold'
+                      'text-blue-black hover:text-green-medium transition-colors font-medium',
+                      isActive && 'text-green-medium font-bold'
                     )
                   }
                 >
@@ -65,7 +65,7 @@ const Navbar = () => {
 
           {/* Mobile menu button */}
           <button
-            className="lg:hidden text-blue-black hover:text-green-forest"
+            className="lg:hidden text-blue-black hover:text-green-medium"
             onClick={toggleMenu}
             aria-label="Menu"
           >
@@ -88,7 +88,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     clsx(
                       'block py-2 text-lg font-medium',
-                      isActive ? 'text-green-forest font-semibold' : 'text-blue-black'
+                      isActive ? 'text-green-medium font-semibold' : 'text-blue-black'
                     )
                   }
                   onClick={() => setIsOpen(false)}

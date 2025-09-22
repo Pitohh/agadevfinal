@@ -82,7 +82,7 @@ const Footer = () => {
                 placeholder="Votre email"
                 className="px-4 py-2 text-blue-black rounded-md focus:outline-none focus:ring-2 focus:ring-beige-light"
               />
-              <button className="bg-copper hover:bg-copper/90 text-white px-4 py-2 rounded-md transition-colors">
+              <button className="bg-yellow-400 hover:bg-yellow-300 text-blue-black px-4 py-2 rounded-md transition-colors font-medium">
                 S'inscrire
               </button>
             </div>

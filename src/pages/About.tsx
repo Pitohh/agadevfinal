@@ -4,7 +4,7 @@ import SectionTitle from '../components/ui/SectionTitle';
 import { CheckCircle2, Clock, FileText, Award } from 'lucide-react';
 
 const About = () => {
-  const bannerImage = "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg";
+  const bannerImage = "/foret-gabonaise-6.jpg.jpg";
   
   const values = [
     { 
@@ -61,14 +61,14 @@ const About = () => {
             <div className="relative">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg" 
+                  src="/foret-gabonaise-7.jpg.jpg" 
                   alt="Forêt gabonaise" 
                   className="w-full h-auto"
                 />
               </div>
               <div className="absolute bottom-0 right-0 transform translate-y-1/4 -translate-x-1/4 bg-white p-4 rounded-lg shadow-lg w-40 md:w-60 z-10">
                 <div className="text-center">
-                  <p className="font-semibold text-green-forest">85% du territoire</p>
+                  <p className="font-semibold text-green-medium">85% du territoire</p>
                   <p className="text-sm text-blue-black/70">couvert de forêts</p>
                 </div>
               </div>
@@ -82,7 +82,7 @@ const About = () => {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold text-green-forest mb-4">Notre vision</h3>
+              <h3 className="text-2xl font-bold text-green-medium mb-4">Notre vision</h3>
               <p className="mb-2">
                 Faire du Gabon un modèle de développement économique durable en Afrique, où la croissance économique va de pair avec la préservation de l'environnement et l'amélioration du bien-être des populations.
               </p>
@@ -92,7 +92,7 @@ const About = () => {
             </div>
             
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-2xl font-bold text-green-forest mb-4">Notre mission</h3>
+              <h3 className="text-2xl font-bold text-green-medium mb-4">Notre mission</h3>
               <p className="mb-2">
                 Mettre en oeuvre la stratégie nationale pour l'économie verte en mobilisant tous les acteurs concernés : pouvoirs publics, secteur privé, société civile et partenaires internationaux.
               </p>
@@ -117,10 +117,10 @@ const About = () => {
             {values.map((value, index) => (
               <div key={index} className="flex space-x-4 p-6 bg-beige-light/20 rounded-lg">
                 <div className="flex-shrink-0">
-                  {value.icon}
+                  <div className="text-green-medium">{value.icon}</div>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-xl mb-2 text-green-forest">{value.title}</h3>
+                  <h3 className="font-semibold text-xl mb-2 text-green-medium">{value.title}</h3>
                   <p className="text-blue-black/80">{value.description}</p>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const About = () => {
                 />
               </div>
               <div className="p-8">
-                <p className="text-sm font-semibold text-copper mb-1">Directrice Générale</p>
+                <p className="text-sm font-semibold text-yellow-400 mb-1">Directrice Générale</p>
                 <h3 className="text-2xl font-bold mb-3">Scyrielle Sende Etali</h3>
                 <p className="text-blue-black/80 mb-4">
                   Titulaire d'un doctorat en économie environnementale de l'Université de Cambridge et forte d'une expérience de 15 ans dans la gestion de projets environnementaux internationaux, Scyrielle Sende Etali dirige l'AGADEV depuis sa création en janvier 2025.
@@ -170,7 +170,7 @@ const About = () => {
           />
           
           <div className="bg-beige-light/20 p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-4 text-green-forest">Textes fondateurs</h3>
+            <h3 className="text-xl font-semibold mb-4 text-green-medium">Textes fondateurs</h3>
             <ul className="list-disc pl-6 space-y-3 text-blue-black/90">
               <li>
                 <strong>Décret n°001/PR/MEDD du 10 janvier 2025</strong> - Portant création, organisation et fonctionnement de l'Agence Gabonaise pour le Développement de l'Économie Verte

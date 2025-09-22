@@ -16,7 +16,7 @@ interface NewsArticle {
 }
 
 const News = () => {
-  const bannerImage = "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg";
+  const bannerImage = "/foret-gabonaise-5.jpg.jpg";
   
   // All available tags
   const allTags = ["Tous", "Événements", "Projets", "Partenariats", "International", "Formation"];
@@ -28,7 +28,7 @@ const News = () => {
       id: 1,
       title: "Lancement officiel de l'AGADEV",
       content: "L'Agence Gabonaise pour le Développement de l'Économie Verte a été officiellement lancée par le Président de la République. Cette nouvelle institution marque un tournant dans la stratégie environnementale du Gabon.\n\nL'AGADEV aura pour mission principale de valoriser le capital naturel du pays et de promouvoir l'investissement vert. Cette création s'inscrit dans la vision du gouvernement de faire du Gabon un leader de l'économie verte en Afrique centrale.",
-      image: "https://images.pexels.com/photos/2108394/pexels-photo-2108394.jpeg",
+      image: "/foret-gabonaise-6.jpg.jpg",
       publication_date: "2025-01-15",
       created_at: "2025-01-15",
       updated_at: "2025-01-15",
@@ -38,7 +38,7 @@ const News = () => {
       id: 2,
       title: "Signature d'un partenariat stratégique avec le CENAREST",
       content: "L'AGADEV et le Centre National de la Recherche Scientifique et Technologique (CENAREST) ont signé un accord de partenariat pour renforcer la recherche dans le domaine de l'économie verte.\n\nCe partenariat permettra de développer des projets de recherche innovants sur la biodiversité gabonaise et les technologies vertes. Les deux institutions collaboreront également sur la formation de jeunes chercheurs spécialisés dans l'environnement.",
-      image: "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg",
+      image: "/foret-gabonaise-7.jpg.jpg",
       publication_date: "2025-02-03",
       created_at: "2025-02-03",
       updated_at: "2025-02-03",
@@ -48,7 +48,7 @@ const News = () => {
       id: 3,
       title: "Participation à la COP30 à Belém",
       content: "L'AGADEV représentera le Gabon lors de la 30ème Conférence des Parties sur les changements climatiques qui se tiendra à Belém, au Brésil.\n\nLa délégation gabonaise présentera les avancées du pays en matière de conservation forestière et de développement de l'économie verte. Cette participation s'inscrit dans la stratégie de positionnement du Gabon comme leader régional de la transition écologique.",
-      image: "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg",
+      image: "/foret-gabonaise-8.jpg.jpg",
       publication_date: "2025-03-07",
       created_at: "2025-03-07",
       updated_at: "2025-03-07",
@@ -86,7 +86,7 @@ const News = () => {
                 onClick={() => setActiveTag(tag)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   activeTag === tag
-                    ? 'bg-green-forest text-white'
+                    ? 'bg-green-medium text-white'
                     : 'bg-beige-light/50 text-blue-black hover:bg-beige-light'
                 }`}
               >
@@ -119,6 +119,7 @@ const News = () => {
                       </div>
                     </div>
                     <h3 className="text-2xl font-bold mb-3 text-green-forest">{article.title}</h3>
+                    <h3 className="text-2xl font-bold mb-3 text-green-medium">{article.title}</h3>
                     <p className="text-blue-black/80 mb-4">{article.content.substring(0, 200)}...</p>
                     
                     {/* Article content */}
@@ -149,7 +150,7 @@ const News = () => {
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Restez informé</h2>
-            <p className="mb-8 text-lg">
+            <p className="mb-8 text-lg text-white">
               Abonnez-vous à notre newsletter pour recevoir régulièrement nos dernières actualités et informations sur nos projets.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3">

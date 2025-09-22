@@ -5,7 +5,7 @@ import { TreePine, Leaf, BarChart3, Users, ChevronRight } from 'lucide-react';
 import Button from '../components/ui/Button';
 
 const Missions = () => {
-  const bannerImage = "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg";
+  const bannerImage = "/foret-gabonaise-9.jpg.jpg";
   
   const missions = [
     {
@@ -19,7 +19,7 @@ const Missions = () => {
         "Élaboration de projets de conservation et de gestion durable des ressources naturelles",
         "Coordination des efforts de recherche sur la biodiversité gabonaise"
       ],
-      image: "https://images.pexels.com/photos/2108394/pexels-photo-2108394.jpeg"
+      image: "/foret-gabonaise-1.jpg.jpg"
     },
     {
       id: "credits-carbone",
@@ -32,7 +32,7 @@ const Missions = () => {
         "Suivi et vérification des réductions d'émissions",
         "Répartition équitable des bénéfices générés par les crédits carbone"
       ],
-      image: "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg"
+      image: "/foret-gabonaise-2.jpg.jpg"
     },
     {
       id: "investissements",
@@ -45,7 +45,7 @@ const Missions = () => {
         "Développement de mécanismes de financement innovants (obligations vertes, prêts concessionnels)",
         "Accompagnement technique et administratif des projets verts"
       ],
-      image: "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg"
+      image: "/foret-gabonaise-3.jpg.jpg"
     },
     {
       id: "sensibilisation",
@@ -58,7 +58,7 @@ const Missions = () => {
         "Publication de guides et de ressources sur l'économie verte",
         "Collaboration avec les établissements d'enseignement pour intégrer l'économie verte dans les cursus"
       ],
-      image: "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg"
+      image: "/foret-gabonaise-4.jpg.jpg"
     }
   ];
 
@@ -102,16 +102,16 @@ const Missions = () => {
               <div>
                 <div className="flex items-center mb-4">
                   {mission.icon}
-                  <h2 className="text-3xl font-bold text-green-forest ml-3">{mission.title}</h2>
+                  <h2 className="text-3xl font-bold text-green-medium ml-3">{mission.title}</h2>
                 </div>
                 
                 <p className="mb-6 text-lg">{mission.description}</p>
                 
-                <h3 className="text-xl font-semibold mb-4 text-green-forest">Nos actions :</h3>
+                <h3 className="text-xl font-semibold mb-4 text-green-medium">Nos actions :</h3>
                 <ul className="space-y-3 mb-6">
                   {mission.actions.map((action, i) => (
                     <li key={i} className="flex items-start">
-                      <ChevronRight className="flex-shrink-0 w-5 h-5 text-copper mt-1" />
+                      <ChevronRight className="flex-shrink-0 w-5 h-5 text-yellow-400 mt-1" />
                       <span className="ml-2">{action}</span>
                     </li>
                   ))}
@@ -138,14 +138,14 @@ const Missions = () => {
       <section className="py-16 bg-green-forest text-white text-center">
         <div className="container-custom">
           <h2 className="text-3xl font-bold mb-6">Participez à nos missions</h2>
-          <p className="max-w-2xl mx-auto mb-8 text-lg">
+          <p className="max-w-2xl mx-auto mb-8 text-lg text-white">
             Vous souhaitez contribuer à la transition écologique du Gabon ? Découvrez nos opportunités de collaboration et nos appels à projets.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button to="/opportunites" variant="secondary" size="lg">
+            <Button to="/opportunites" variant="primary" size="lg">
               Voir les opportunités
             </Button>
-            <Button to="/contact" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-green-forest">
+            <Button to="/contact" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-green-medium">
               Nous contacter
             </Button>
           </div>

@@ -13,7 +13,7 @@ interface ContactFormData {
 }
 
 const Contact = () => {
-  const bannerImage = "https://images.pexels.com/photos/2108394/pexels-photo-2108394.jpeg";
+  const bannerImage = "/foret-gabonaise-8.jpg.jpg";
   
   const { register, handleSubmit, formState: { errors } } = useForm<ContactFormData>();
   
@@ -50,7 +50,7 @@ const Contact = () => {
                   <input
                     id="name"
                     type="text"
-                    className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-forest/50 ${errors.name ? 'border-red-500' : 'border-beige-light'}`}
+                    className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-medium/50 ${errors.name ? 'border-red-500' : 'border-beige-light'}`}
                     placeholder="Votre nom"
                     {...register("name", { required: "Ce champ est obligatoire" })}
                   />
@@ -62,7 +62,7 @@ const Contact = () => {
                   <input
                     id="email"
                     type="email"
-                    className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-forest/50 ${errors.email ? 'border-red-500' : 'border-beige-light'}`}
+                    className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-medium/50 ${errors.email ? 'border-red-500' : 'border-beige-light'}`}
                     placeholder="Votre email"
                     {...register("email", { 
                       required: "Ce champ est obligatoire",
@@ -80,7 +80,7 @@ const Contact = () => {
                   <input
                     id="subject"
                     type="text"
-                    className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-forest/50 ${errors.subject ? 'border-red-500' : 'border-beige-light'}`}
+                    className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-medium/50 ${errors.subject ? 'border-red-500' : 'border-beige-light'}`}
                     placeholder="Sujet de votre message"
                     {...register("subject", { required: "Ce champ est obligatoire" })}
                   />
@@ -91,7 +91,7 @@ const Contact = () => {
                   <label htmlFor="message" className="block text-blue-black/80 mb-1">Message</label>
                   <textarea
                     id="message"
-                    className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-forest/50 ${errors.message ? 'border-red-500' : 'border-beige-light'}`}
+                    className={`w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-medium/50 ${errors.message ? 'border-red-500' : 'border-beige-light'}`}
                     placeholder="Votre message"
                     rows={5}
                     {...register("message", { required: "Ce champ est obligatoire" })}
@@ -115,7 +115,7 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <MapPin className="w-6 h-6 text-green-forest mt-1" />
+                  <MapPin className="w-6 h-6 text-green-medium mt-1" />
                   <div className="ml-4">
                     <h3 className="font-semibold text-lg mb-1">Adresse</h3>
                     <p className="text-blue-black/80">
@@ -127,11 +127,11 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <Mail className="w-6 h-6 text-green-forest mt-1" />
+                  <Mail className="w-6 h-6 text-green-medium mt-1" />
                   <div className="ml-4">
                     <h3 className="font-semibold text-lg mb-1">Email</h3>
                     <p className="text-blue-black/80">
-                      <a href="mailto:infos@agadev-gabon.com" className="text-copper hover:text-copper/80 transition-colors">
+                      <a href="mailto:infos@agadev-gabon.com" className="text-yellow-400 hover:text-yellow-300 transition-colors">
                         infos@agadev-gabon.com
                       </a>
                     </p>
@@ -139,11 +139,11 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <Phone className="w-6 h-6 text-green-forest mt-1" />
+                  <Phone className="w-6 h-6 text-green-medium mt-1" />
                   <div className="ml-4">
                     <h3 className="font-semibold text-lg mb-1">Téléphone</h3>
                     <p className="text-blue-black/80">
-                      <a href="tel:+24106565898" className="text-copper hover:text-copper/80 transition-colors">
+                      <a href="tel:+24106565898" className="text-yellow-400 hover:text-yellow-300 transition-colors">
                         065 65 89 88 / 074 65 89 88
                       </a>
                     </p>
@@ -151,7 +151,7 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <Clock className="w-6 h-6 text-green-forest mt-1" />
+                  <Clock className="w-6 h-6 text-green-medium mt-1" />
                   <div className="ml-4">
                     <h3 className="font-semibold text-lg mb-1">Horaires d'ouverture</h3>
                     <p className="text-blue-black/80">
@@ -176,31 +176,31 @@ const Contact = () => {
       {/* Call to Action */}
       <section className="section bg-beige-light/30 text-center">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-green-forest mb-6">Des questions spécifiques ?</h2>
+          <h2 className="text-3xl font-bold text-green-medium mb-6">Des questions spécifiques ?</h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg">
             Notre équipe d'experts est disponible pour répondre à vos questions sur nos programmes, les opportunités de financement ou les partenariats potentiels.
           </p>
           <div className="flex flex-wrap justify-center gap-6">
             <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs">
-              <h3 className="font-semibold text-lg mb-3 text-green-forest">Questions sur les projets</h3>
+              <h3 className="font-semibold text-lg mb-3 text-green-medium">Questions sur les projets</h3>
               <p className="mb-4 text-blue-black/80">Pour toute question concernant nos projets en cours ou futurs.</p>
-              <a href="mailto:infos@agadev-gabon.com" className="text-copper hover:text-copper/80 transition-colors">
+              <a href="mailto:infos@agadev-gabon.com" className="text-yellow-400 hover:text-yellow-300 transition-colors">
                 infos@agadev-gabon.com
               </a>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs">
-              <h3 className="font-semibold text-lg mb-3 text-green-forest">Partenariats</h3>
+              <h3 className="font-semibold text-lg mb-3 text-green-medium">Partenariats</h3>
               <p className="mb-4 text-blue-black/80">Pour discuter d'opportunités de collaboration avec l'AGADEV.</p>
-              <a href="mailto:infos@agadev-gabon.com" className="text-copper hover:text-copper/80 transition-colors">
+              <a href="mailto:infos@agadev-gabon.com" className="text-yellow-400 hover:text-yellow-300 transition-colors">
                 infos@agadev-gabon.com
               </a>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center max-w-xs">
-              <h3 className="font-semibold text-lg mb-3 text-green-forest">Recrutement</h3>
+              <h3 className="font-semibold text-lg mb-3 text-green-medium">Recrutement</h3>
               <p className="mb-4 text-blue-black/80">Pour postuler ou se renseigner sur nos offres d'emploi.</p>
-              <a href="mailto:infos@agadev-gabon.com" className="text-copper hover:text-copper/80 transition-colors">
+              <a href="mailto:infos@agadev-gabon.com" className="text-yellow-400 hover:text-yellow-300 transition-colors">
                 infos@agadev-gabon.com
               </a>
             </div>

@@ -5,7 +5,7 @@ import Button from '../components/ui/Button';
 import Card from '../components/ui/Card';
 
 const Projects = () => {
-  const bannerImage = "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg";
+  const bannerImage = "/foret-gabonaise-9.jpg.jpg";
   
   // Filter categories
   const categories = ["Tous", "En cours", "Réalisés", "Reforestation", "Carbone", "Biodiversité", "Innovation"];
@@ -18,42 +18,42 @@ const Projects = () => {
       description: "Cartographie complète des ressources forestières du Gabon pour mieux comprendre et gérer notre capital naturel.",
       status: "En cours",
       category: ["Biodiversité"],
-      imageSrc: "https://images.pexels.com/photos/2108394/pexels-photo-2108394.jpeg"
+      imageSrc: "/foret-gabonaise-1.jpg.jpg"
     },
     {
       title: "Reforestation du bassin du Komo",
       description: "Restauration de 1000 hectares de zones dégradées par la plantation d'essences locales et création d'emplois verts.",
       status: "En cours",
       category: ["Reforestation"],
-      imageSrc: "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg"
+      imageSrc: "/foret-gabonaise-2.jpg.jpg"
     },
     {
       title: "Certification carbone des forêts communautaires",
       description: "Accompagnement des communautés locales pour la certification de leurs forêts sur le marché volontaire du carbone.",
       status: "En cours",
       category: ["Carbone"],
-      imageSrc: "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg"
+      imageSrc: "/foret-gabonaise-3.jpg.jpg"
     },
     {
       title: "Plateforme numérique de suivi carbone",
       description: "Développement d'une solution technologique pour le suivi en temps réel des stocks de carbone dans les forêts gabonaises.",
       status: "En cours",
       category: ["Innovation", "Carbone"],
-      imageSrc: "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg"
+      imageSrc: "/foret-gabonaise-4.jpg.jpg"
     },
     {
       title: "Étude de la biodiversité du Parc National de la Lopé",
       description: "Recensement des espèces animales et végétales pour valoriser la richesse biologique du parc.",
       status: "Réalisé",
       category: ["Biodiversité"],
-      imageSrc: "https://images.pexels.com/photos/2108394/pexels-photo-2108394.jpeg"
+      imageSrc: "/foret-gabonaise-5.jpg.jpg"
     },
     {
       title: "Restauration de mangroves à Port-Gentil",
       description: "Projet pilote de restauration des écosystèmes côtiers pour lutter contre l'érosion et séquestrer du carbone.",
       status: "Réalisé",
       category: ["Reforestation", "Carbone"],
-      imageSrc: "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg"
+      imageSrc: "/foret-gabonaise-6.jpg.jpg"
     }
   ];
   
@@ -109,7 +109,7 @@ const Projects = () => {
                 onClick={() => setActiveFilter(category)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   activeFilter === category
-                    ? 'bg-green-forest text-white'
+                    ? 'bg-green-medium text-white'
                     : 'bg-beige-light/50 text-blue-black hover:bg-beige-light'
                 }`}
               >
@@ -171,7 +171,7 @@ const Projects = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {partners.map((partner, index) => (
               <div key={index} className="p-6 border border-beige-light rounded-lg">
-                <h3 className="text-xl font-semibold mb-2 text-green-forest">{partner.name}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-green-medium">{partner.name}</h3>
                 <p className="text-blue-black/80">{partner.description}</p>
               </div>
             ))}
@@ -188,7 +188,7 @@ const Projects = () => {
               "L'approche innovante de l'AGADEV pour valoriser le capital naturel du Gabon représente un modèle prometteur pour toute l'Afrique. Leur travail démontre qu'il est possible de concilier développement économique et préservation de l'environnement."
             </blockquote>
             <div className="font-semibold">
-              <p>Dr. Carlos Mendes</p>
+              <p className="text-white font-semibold">Dr. Carlos Mendes</p>
               <p className="text-white/80 text-sm">Directeur régional, Programme des Nations Unies pour l'Environnement</p>
             </div>
           </div>
@@ -198,7 +198,7 @@ const Projects = () => {
       {/* Call to Action */}
       <section className="section bg-beige-light/40 text-center">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-green-forest mb-6">Vous avez un projet innovant ?</h2>
+          <h2 className="text-3xl font-bold text-green-medium mb-6">Vous avez un projet innovant ?</h2>
           <p className="max-w-2xl mx-auto mb-8 text-lg">
             L'AGADEV est constamment à la recherche de nouveaux partenaires et projets innovants dans le domaine de l'économie verte.
           </p>

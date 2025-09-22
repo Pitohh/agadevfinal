@@ -5,7 +5,7 @@ import { FileText, Download, PlusCircle, MinusCircle } from 'lucide-react';
 import Button from '../components/ui/Button';
 
 const Resources = () => {
-  const bannerImage = "https://images.pexels.com/photos/416978/pexels-photo-416978.jpeg";
+  const bannerImage = "/foret-gabonaise-7.jpg.jpg";
   
   // Documents for download
   const documents = [
@@ -118,16 +118,17 @@ const Resources = () => {
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-3">
                     <div className="flex items-center">
-                      <FileText className="text-green-forest w-5 h-5 mr-2" />
+                      <FileText className="text-green-medium w-5 h-5 mr-2" />
                       <span className="text-xs font-medium px-2 py-1 rounded bg-beige-light/40 text-blue-black/70">{doc.category}</span>
                     </div>
                     <span className="text-xs text-blue-black/60">{doc.type} • {doc.size}</span>
                   </div>
                   <h3 className="text-lg font-semibold mb-2 text-green-forest">{doc.title}</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-green-medium">{doc.title}</h3>
                   <p className="text-blue-black/80 text-sm mb-4">{doc.description}</p>
                   <a 
                     href={doc.url} 
-                    className="inline-flex items-center text-copper hover:text-copper/80 font-medium transition-colors"
+                    className="inline-flex items-center text-yellow-400 hover:text-yellow-300 font-medium transition-colors"
                   >
                     <Download className="w-4 h-4 mr-1" />
                     Télécharger
@@ -156,10 +157,11 @@ const Resources = () => {
                   className="flex justify-between items-center w-full p-4 bg-white rounded-lg shadow-sm text-left transition-colors hover:bg-beige-light/10"
                 >
                   <span className="font-medium text-lg text-green-forest">{faq.question}</span>
+                  <span className="font-medium text-lg text-green-medium">{faq.question}</span>
                   {expandedFaqs.includes(index) ? (
-                    <MinusCircle className="flex-shrink-0 w-5 h-5 text-copper" />
+                    <MinusCircle className="flex-shrink-0 w-5 h-5 text-yellow-400" />
                   ) : (
-                    <PlusCircle className="flex-shrink-0 w-5 h-5 text-green-forest" />
+                    <PlusCircle className="flex-shrink-0 w-5 h-5 text-green-medium" />
                   )}
                 </button>
                 
@@ -184,14 +186,14 @@ const Resources = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="p-6 border border-beige-light rounded-lg">
-              <h3 className="text-xl font-semibold mb-2 text-green-forest">Plateformes internationales</h3>
+              <h3 className="text-xl font-semibold mb-2 text-green-medium">Plateformes internationales</h3>
               <ul className="space-y-3">
                 <li>
                   <a 
                     href="https://www.unep.org/fr" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-copper hover:text-copper/80 transition-colors"
+                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
                   >
                     Programme des Nations Unies pour l'Environnement (PNUE)
                   </a>
@@ -201,7 +203,7 @@ const Resources = () => {
                     href="https://www.unccd.int/fr" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-copper hover:text-copper/80 transition-colors"
+                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
                   >
                     Convention des Nations Unies sur la lutte contre la désertification
                   </a>
@@ -211,7 +213,7 @@ const Resources = () => {
                     href="https://unfccc.int/fr" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-copper hover:text-copper/80 transition-colors"
+                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
                   >
                     Convention-cadre des Nations Unies sur les changements climatiques
                   </a>
@@ -221,7 +223,7 @@ const Resources = () => {
                     href="https://www.greenclimate.fund/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="text-copper hover:text-copper/80 transition-colors"
+                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
                   >
                     Fonds vert pour le climat
                   </a>
@@ -230,12 +232,12 @@ const Resources = () => {
             </div>
             
             <div className="p-6 border border-beige-light rounded-lg">
-              <h3 className="text-xl font-semibold mb-2 text-green-forest">Textes législatifs et rapports</h3>
+              <h3 className="text-xl font-semibold mb-2 text-green-medium">Textes législatifs et rapports</h3>
               <ul className="space-y-3">
                 <li>
                   <a 
                     href="#" 
-                    className="text-copper hover:text-copper/80 transition-colors"
+                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
                   >
                     Code forestier du Gabon
                   </a>
@@ -243,7 +245,7 @@ const Resources = () => {
                 <li>
                   <a 
                     href="#" 
-                    className="text-copper hover:text-copper/80 transition-colors"
+                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
                   >
                     Contribution Déterminée au niveau National (CDN) du Gabon
                   </a>
@@ -251,7 +253,7 @@ const Resources = () => {
                 <li>
                   <a 
                     href="#" 
-                    className="text-copper hover:text-copper/80 transition-colors"
+                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
                   >
                     Plan National Climat du Gabon
                   </a>
@@ -259,7 +261,7 @@ const Resources = () => {
                 <li>
                   <a 
                     href="#" 
-                    className="text-copper hover:text-copper/80 transition-colors"
+                    className="text-yellow-400 hover:text-yellow-300 transition-colors"
                   >
                     Rapport sur l'état des forêts du bassin du Congo
                   </a>
@@ -275,7 +277,7 @@ const Resources = () => {
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">Restez informé</h2>
-            <p className="mb-8 text-lg">
+            <p className="mb-8 text-lg text-white">
               Abonnez-vous à notre newsletter pour recevoir régulièrement les dernières ressources, études et actualités sur l'économie verte au Gabon.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-3">

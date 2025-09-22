@@ -22,9 +22,9 @@ const Button: React.FC<ButtonProps> = ({
   const baseClasses = clsx(
     'inline-flex items-center justify-center rounded-md font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2',
     {
-      'bg-green-forest hover:bg-green-forest/90 text-white focus:ring-green-forest/50': variant === 'primary',
+      'bg-green-medium hover:bg-green-medium/90 text-white focus:ring-green-medium/50': variant === 'primary',
       'bg-copper hover:bg-copper/90 text-white focus:ring-copper/50': variant === 'secondary',
-      'bg-transparent border-2 border-green-forest text-green-forest hover:bg-green-forest hover:text-white focus:ring-green-forest/50': variant === 'outline',
+      'bg-transparent border-2 border-green-medium text-green-medium hover:bg-green-medium hover:text-white focus:ring-green-medium/50': variant === 'outline',
     },
     {
       'text-sm px-3 py-1.5': size === 'sm',

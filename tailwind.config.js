@@ -4,11 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'green-forest': '#1d4c3a',
-        'green-soft': '#4f9075',
+        'green-forest': '#1C5137',
+        'green-soft': '#36B44A',
         'beige-light': '#e6e0db',
-        'copper': '#a27452',
-        'blue-black': '#2c2a27',
+        'copper': '#FFD200',
+        'blue-black': '#004B97',
+        'green-medium': '#00A859',
       },
       fontFamily: {
         sans: ['Source Sans Pro', 'sans-serif'],
