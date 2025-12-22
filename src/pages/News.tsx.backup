@@ -2,26 +2,26 @@ import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import Banner from '../components/ui/Banner';
-import { getProjects } from '../services/api';
-import { FolderKanban } from 'lucide-react';
+import { getNews } from '../services/api';
+import { Newspaper } from 'lucide-react';
 
-const Projects = () => {
-  const bannerImage = "/foret-gabonaise-4.jpg.jpg";
+const News = () => {
+  const bannerImage = "/foret-gabonaise-3.jpg.jpg";
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
-  const [projects, setProjects] = useState([]);
+  const [news, setNews] = useState([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    loadProjects();
+    loadNews();
   }, [i18n.language]);
 
-  const loadProjects = async () => {
+  const loadNews = async () => {
     try {
-      const response = await getProjects({ lang: i18n.language, limit: 20 });
-      setProjects(response.data.projects);
+      const response = await getNews({ lang: i18n.language, limit: 20 });
+      setNews(response.data.news);
     } catch (error) {
-      console.error('Error loading projects:', error);
+      console.error('Error loading news:', error);
     } finally {
       setLoading(false);
     }
@@ -29,52 +29,50 @@ const Projects = () => {
 
   return (
     <div className="pt-20">
-      <Banner
-        title={t('projets_et_programmes')}
-        subtitle={t('nos_initiatives_pour_economie')}
+      <Banner 
+        title="Actualités" 
+        subtitle="Suivez l'actualité de l'AGADEV"
         backgroundImage={bannerImage}
       />
 
       <section className="py-16 bg-white">
         <div className="container-custom">
           {loading ? (
-            <p className="text-center">{t('chargement')}</p>
-          ) : projects.length === 0 ? (
+            <p className="text-center">Chargement...</p>
+          ) : news.length === 0 ? (
             <div className="text-center py-12">
-              <FolderKanban size={64} className="mx-auto text-gray-400 mb-4" />
-              <p className="text-gray-600">{t('aucun_projet_pour_moment')}</p>
+              <Newspaper size={64} className="mx-auto text-gray-400 mb-4" />
+              <p className="text-gray-600">Aucune actualité pour le moment</p>
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {projects.map((item) => (
-                <div
-                  key={item.id}
-                  onClick={() => navigate(`/projets-programmes/${item.slug}`)}
+              {news.map((item) => (
+                <div 
+                  key={item.id} 
+                  onClick={() => navigate(`/actualites/${item.slug}`)}
                   className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
                 >
                   {item.cover_image_url && (
-                    <img
-                      src={item.cover_image_url}
+                    <img 
+                      src={item.cover_image_url} 
                       alt={item.title}
                       className="w-full h-48 object-cover"
                     />
                   )}
                   <div className="p-6">
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm capitalize">
-                        {item.status}
-                      </span>
-                    </div>
+                    <p className="text-sm text-gray-500 mb-2">
+                      {new Date(item.publish_date || item.created_at).toLocaleDateString(i18n.language === 'fr' ? 'fr-FR' : 'en-US')}
+                    </p>
                     <h3 className="text-xl font-bold text-blue-black mb-3">
                       {item.title}
                     </h3>
-                    {item.description && (
+                    {item.excerpt && (
                       <p className="text-gray-600 mb-4">
-                        {item.description}
+                        {item.excerpt}
                       </p>
                     )}
                     <span className="text-green-medium hover:text-green-forest font-semibold">
-                      {t('en_savoir_plus')}
+                      Lire la suite →
                     </span>
                   </div>
                 </div>
@@ -87,4 +85,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default News;

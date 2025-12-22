@@ -1,0 +1,2911 @@
+{
+  "totalTexts": 356,
+  "timestamp": "2025-12-22T06:51:07.520Z",
+  "texts": [
+    {
+      "id": "text_1",
+      "fr": "{/* Public Routes */}",
+      "en": "",
+      "files": [
+        "src/App.tsx"
+      ]
+    },
+    {
+      "id": "text_2",
+      "fr": "{/* Admin Routes */}",
+      "en": "",
+      "files": [
+        "src/App.tsx"
+      ]
+    },
+    {
+      "id": "text_3",
+      "fr": "{i18n.language === 'fr' ? 'EN' : 'FR'}",
+      "en": "",
+      "files": [
+        "src/components/LanguageSwitcher.jsx"
+      ]
+    },
+    {
+      "id": "text_4",
+      "fr": "Change language",
+      "en": "",
+      "files": [
+        "src/components/LanguageSwitcher.jsx"
+      ]
+    },
+    {
+      "id": "text_5",
+      "fr": "FR",
+      "en": "",
+      "files": [
+        "src/components/LanguageSwitcher.tsx"
+      ]
+    },
+    {
+      "id": "text_6",
+      "fr": "EN",
+      "en": "",
+      "files": [
+        "src/components/LanguageSwitcher.tsx"
+      ]
+    },
+    {
+      "id": "text_7",
+      "fr": "Admin AGADEV",
+      "en": "",
+      "files": [
+        "src/components/admin/AdminLayout.tsx"
+      ]
+    },
+    {
+      "id": "text_8",
+      "fr": "{user?.username}",
+      "en": "",
+      "files": [
+        "src/components/admin/AdminLayout.tsx"
+      ]
+    },
+    {
+      "id": "text_9",
+      "fr": "Déconnexion",
+      "en": "",
+      "files": [
+        "src/components/admin/AdminLayout.tsx"
+      ]
+    },
+    {
+      "id": "text_10",
+      "fr": "{item.label}",
+      "en": "",
+      "files": [
+        "src/components/admin/AdminLayout.tsx"
+      ]
+    },
+    {
+      "id": "text_11",
+      "fr": "AGADEV",
+      "en": "",
+      "files": [
+        "src/components/admin/AdminLayout.tsx",
+        "src/components/layout/Footer.tsx",
+        "src/components/layout/Navbar.tsx",
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_12",
+      "fr": "{/* Logo and brief description */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_13",
+      "fr": "Agence Gabonaise pour le Développement de l'Économie Verte. Transformer notre capital naturel en opportunité pour demain.",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_14",
+      "fr": "{/* Quick Links */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_15",
+      "fr": "Liens rapides",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_16",
+      "fr": "Accueil",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_17",
+      "fr": "À propos",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_18",
+      "fr": "Nos missions",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Home.tsx",
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_19",
+      "fr": "Projets & Programmes",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_20",
+      "fr": "Ressources",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_21",
+      "fr": "{/* Contact Information */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_22",
+      "fr": "Contact",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_23",
+      "fr": "La Sablière, Résidence Les Paletuviers, Immeuble B, B402",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_24",
+      "fr": "infos@agadev-gabon.com",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_25",
+      "fr": "{/* Newsletter */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_26",
+      "fr": "Restez informé",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_27",
+      "fr": "Inscrivez-vous à notre newsletter pour recevoir nos actualités et informations.",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_28",
+      "fr": "S'inscrire",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_29",
+      "fr": "{/* Copyright and bottom links */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_30",
+      "fr": "&copy; {currentYear} AGADEV. Tous droits réservés.",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_31",
+      "fr": "Mentions légales",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_32",
+      "fr": "Politique de confidentialité",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_33",
+      "fr": "LinkedIn",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_34",
+      "fr": "Facebook",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "id": "text_35",
+      "fr": "Votre email",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_36",
+      "fr": "{\n  return (",
+      "en": "",
+      "files": [
+        "src/components/layout/Layout.tsx",
+        "src/components/ui/SectionTitle.tsx"
+      ]
+    },
+    {
+      "id": "text_37",
+      "fr": "{children}",
+      "en": "",
+      "files": [
+        "src/components/layout/Layout.tsx",
+        "src/components/ui/Button.tsx",
+        "src/contexts/AuthContext.tsx",
+        "src/hooks/useTranslation.tsx"
+      ]
+    },
+    {
+      "id": "text_38",
+      "fr": "{/* Desktop Menu */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Navbar.tsx"
+      ]
+    },
+    {
+      "id": "text_39",
+      "fr": "{link.title}",
+      "en": "",
+      "files": [
+        "src/components/layout/Navbar.tsx"
+      ]
+    },
+    {
+      "id": "text_40",
+      "fr": "{/* Language Switcher */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Navbar.tsx"
+      ]
+    },
+    {
+      "id": "text_41",
+      "fr": "{/* Mobile menu button */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Navbar.tsx"
+      ]
+    },
+    {
+      "id": "text_42",
+      "fr": "{isOpen ?",
+      "en": "",
+      "files": [
+        "src/components/layout/Navbar.tsx"
+      ]
+    },
+    {
+      "id": "text_43",
+      "fr": "{/* Mobile Menu */}",
+      "en": "",
+      "files": [
+        "src/components/layout/Navbar.tsx"
+      ]
+    },
+    {
+      "id": "text_44",
+      "fr": "Menu",
+      "en": "",
+      "files": [
+        "src/components/layout/Navbar.tsx"
+      ]
+    },
+    {
+      "id": "text_45",
+      "fr": "{title}",
+      "en": "",
+      "files": [
+        "src/components/ui/Banner.tsx",
+        "src/components/ui/Card.tsx",
+        "src/components/ui/SectionTitle.tsx"
+      ]
+    },
+    {
+      "id": "text_46",
+      "fr": "{subtitle && (",
+      "en": "",
+      "files": [
+        "src/components/ui/Banner.tsx",
+        "src/components/ui/SectionTitle.tsx"
+      ]
+    },
+    {
+      "id": "text_47",
+      "fr": "{subtitle}",
+      "en": "",
+      "files": [
+        "src/components/ui/Banner.tsx",
+        "src/components/ui/SectionTitle.tsx"
+      ]
+    },
+    {
+      "id": "text_48",
+      "fr": ")}\n          {buttonText && buttonLink && (",
+      "en": "",
+      "files": [
+        "src/components/ui/Banner.tsx"
+      ]
+    },
+    {
+      "id": "text_49",
+      "fr": "{buttonText}",
+      "en": "",
+      "files": [
+        "src/components/ui/Banner.tsx"
+      ]
+    },
+    {
+      "id": "text_50",
+      "fr": ");\n  }\n\n  if (to) {\n    return (",
+      "en": "",
+      "files": [
+        "src/components/ui/Button.tsx"
+      ]
+    },
+    {
+      "id": "text_51",
+      "fr": ");\n  }\n\n  return (",
+      "en": "",
+      "files": [
+        "src/components/ui/Button.tsx"
+      ]
+    },
+    {
+      "id": "text_52",
+      "fr": "{imageSrc && (",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_53",
+      "fr": "{icon &&",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_54",
+      "fr": "{icon}",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_55",
+      "fr": "{description}",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_56",
+      "fr": "{(to || href) && (",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_57",
+      "fr": "En savoir plus →",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx",
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_58",
+      "fr": ");\n\n  return (",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx",
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_59",
+      "fr": "{to ? (",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_60",
+      "fr": "{cardContent}",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_61",
+      "fr": ") : href ? (",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_62",
+      "fr": ") : (\n        cardContent\n      )}",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "id": "text_63",
+      "fr": "{\n    localStorage.removeItem('token');\n    setUser(null);\n  };\n\n  return (",
+      "en": "",
+      "files": [
+        "src/contexts/AuthContext.tsx"
+      ]
+    },
+    {
+      "id": "text_64",
+      "fr": "{\n    document.documentElement.lang = language;\n  }, [language]);\n\n  return (",
+      "en": "",
+      "files": [
+        "src/hooks/useTranslation.tsx"
+      ]
+    },
+    {
+      "id": "text_65",
+      "fr": ", \n      title: \"Durabilité\", \n      description: \"Nous promouvons un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à satisfaire leurs propres besoins.\" \n    },\n    { \n      icon:",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_66",
+      "fr": ", \n      title: \"Excellence\", \n      description: \"Nous visons l'excellence dans toutes nos actions et projets, en nous appuyant sur des données scientifiques et les meilleures pratiques internationales.\" \n    },\n    { \n      icon:",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_67",
+      "fr": ", \n      title: \"Transparence\", \n      description: \"Nous agissons avec intégrité et transparence dans la gestion de nos projets et dans nos relations avec toutes nos parties prenantes.\" \n    },\n    { \n      icon:",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_68",
+      "fr": ", \n      title: \"Innovation\", \n      description: \"Nous encourageons l'innovation et la créativité dans la recherche de solutions durables aux défis environnementaux et économiques.\" \n    }\n  ];\n\n  return (",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_69",
+      "fr": "{/* Hero Banner */}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx",
+        "src/pages/Contact.tsx",
+        "src/pages/Missions.tsx",
+        "src/pages/Opportunities.tsx",
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_70",
+      "fr": "{/* Introduction Section */}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_71",
+      "fr": "L'Agence Gabonaise pour le Développement de l'Économie Verte (AGADEV) est un établissement public à caractère industriel et commercial, créé en janvier 2025, sous la tutelle du Ministère de l'Économie du Gabon.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx",
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_72",
+      "fr": "Notre mission principale est de valoriser le capital naturel du Gabon et de promouvoir l'investissement vert, positionnant ainsi le pays comme un acteur majeur de la transition écologique en Afrique centrale.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_73",
+      "fr": "L'AGADEV joue un rôle crucial dans la stratégie nationale du Gabon pour concilier développement économique et préservation de l'environnement, notamment à travers la gestion des crédits carbone et la promotion de projets innovants.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_74",
+      "fr": "85% du territoire",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_75",
+      "fr": "couvert de forêts",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_76",
+      "fr": "{/* Vision and Mission */}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_77",
+      "fr": "Notre vision",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_78",
+      "fr": "Faire du Gabon un modèle de développement économique durable en Afrique, où la croissance économique va de pair avec la préservation de l'environnement et l'amélioration du bien-être des populations.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_79",
+      "fr": "Nous aspirons à un Gabon où le capital naturel est pleinement valorisé et contribue significativement à la prospérité nationale.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_80",
+      "fr": "Notre mission",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_81",
+      "fr": "Mettre en oeuvre la stratégie nationale pour l'économie verte en mobilisant tous les acteurs concernés : pouvoirs publics, secteur privé, société civile et partenaires internationaux.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_82",
+      "fr": "Promouvoir l'adoption de pratiques durables dans tous les secteurs économiques et faciliter l'accès aux financements verts.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_83",
+      "fr": "{/* Values */}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_84",
+      "fr": "{value.icon}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_85",
+      "fr": "{value.title}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_86",
+      "fr": "{value.description}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_87",
+      "fr": "{/* Leadership */}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_88",
+      "fr": "Directrice Générale",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_89",
+      "fr": "Scyrielle Sende Etali",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_90",
+      "fr": "Titulaire d'un doctorat en économie environnementale de l'Université de Cambridge et forte d'une expérience de 15 ans dans la gestion de projets environnementaux internationaux, Scyrielle Sende Etali dirige l'AGADEV depuis sa création en janvier 2025.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_91",
+      "fr": "Sous sa direction, l'AGADEV s'est engagée à transformer le capital naturel du Gabon en un véritable moteur de croissance économique durable.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_92",
+      "fr": "{/* Legal Framework */}",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_93",
+      "fr": "Textes fondateurs",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_94",
+      "fr": "Décret n°001/PR/MEDD du 10 janvier 2025",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_95",
+      "fr": "- Portant création, organisation et fonctionnement de l'Agence Gabonaise pour le Développement de l'Économie Verte",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_96",
+      "fr": "Loi n°024/2024 du 5 décembre 2024",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_97",
+      "fr": "- Relative à l'économie verte et au développement durable au Gabon",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_98",
+      "fr": "Arrêté n°0035/MEDD/CAB du 15 janvier 2025",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_99",
+      "fr": "- Portant nomination des membres du Conseil d'Administration de l'AGADEV",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_100",
+      "fr": "À propos de l",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_101",
+      "fr": "Qui sommes-nous ?",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_102",
+      "fr": "Forêt gabonaise",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx",
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_103",
+      "fr": "Nos valeurs",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_104",
+      "fr": "Les principes qui guident notre action au quotidien",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_105",
+      "fr": "Notre direction",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_106",
+      "fr": "Cadre juridique",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "id": "text_107",
+      "fr": "{\n    // In a real application, this would send the form data to a server\n    console.log(data);\n    alert(\"Votre message a été envoyé avec succès. Nous vous répondrons dans les meilleurs délais.\");\n  };\n\n  return (",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_108",
+      "fr": "{/* Contact Form and Info */}",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_109",
+      "fr": "{/* Contact Form */}",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_110",
+      "fr": "Nom complet",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_111",
+      "fr": "{errors.name &&",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_112",
+      "fr": "{errors.name.message}",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_113",
+      "fr": "Email",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_114",
+      "fr": "{errors.email &&",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_115",
+      "fr": "{errors.email.message}",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_116",
+      "fr": "Sujet",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_117",
+      "fr": "{errors.subject &&",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_118",
+      "fr": "{errors.subject.message}",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_119",
+      "fr": "Message",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_120",
+      "fr": "{errors.message &&",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_121",
+      "fr": "{errors.message.message}",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_122",
+      "fr": "Envoyer",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_123",
+      "fr": "Adresse",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_124",
+      "fr": "La Sablière",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_125",
+      "fr": "Résidence Les Paletuviers",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_126",
+      "fr": "Immeuble B, B402",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_127",
+      "fr": "Téléphone",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_128",
+      "fr": "Horaires d'ouverture",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_129",
+      "fr": "Lundi - Vendredi: 8h00 - 16h30",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_130",
+      "fr": "Fermé les week-ends et jours fériés",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_131",
+      "fr": "{/* Map placeholder - In a real site, this would be an interactive map */}",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_132",
+      "fr": "Carte interactive (à venir)",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_133",
+      "fr": "{/* Call to Action */}",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_134",
+      "fr": "Des questions spécifiques ?",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_135",
+      "fr": "Notre équipe d'experts est disponible pour répondre à vos questions sur nos programmes, les opportunités de financement ou les partenariats potentiels.",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_136",
+      "fr": "Questions sur les projets",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_137",
+      "fr": "Pour toute question concernant nos projets en cours ou futurs.",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_138",
+      "fr": "Partenariats",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_139",
+      "fr": "Pour discuter d'opportunités de collaboration avec l'AGADEV.",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_140",
+      "fr": "Recrutement",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_141",
+      "fr": "Pour postuler ou se renseigner sur nos offres d'emploi.",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_142",
+      "fr": "Contactez-nous",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_143",
+      "fr": "Notre équipe est à votre disposition pour répondre à vos questions",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_144",
+      "fr": "Envoyez-nous un message",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_145",
+      "fr": "Nous vous répondrons dans les meilleurs délais",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_146",
+      "fr": "Votre nom",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_147",
+      "fr": "Sujet de votre message",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_148",
+      "fr": "Votre message",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_149",
+      "fr": "Nos coordonnées",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_150",
+      "fr": "Plusieurs façons de nous contacter",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "id": "text_151",
+      "fr": ", title: \"Capital naturel\", description: \"Valorisation des forêts et de la biodiversité du Gabon\" },\n    { icon:",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_152",
+      "fr": ", title: \"Crédits carbone\", description: \"Monétisation des crédits carbone et de biodiversité\" },\n    { icon:",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_153",
+      "fr": ", title: \"Investissements verts\", description: \"Promotion et facilitation des investissements écologiques\" },\n    { icon:",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_154",
+      "fr": "Bienvenue à l'AGADEV",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_155",
+      "fr": "Notre mission est de positionner le Gabon comme un acteur majeur de la transition écologique en Afrique centrale en valorisant notre capital naturel et en promouvant l'investissement vert.",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_156",
+      "fr": "En savoir plus",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_157",
+      "fr": "Nous contacter",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx",
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_158",
+      "fr": "Découvrir toutes nos missions",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_159",
+      "fr": "{article.date}",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_160",
+      "fr": "{article.title}",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_161",
+      "fr": "{article.description}",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_162",
+      "fr": "Lire la suite",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_163",
+      "fr": "Voir toutes les actualités",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_164",
+      "fr": "Nos partenaires",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_165",
+      "fr": "{partner.name}",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_166",
+      "fr": "Participez à la transition écologique",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_167",
+      "fr": "Découvrez nos appels à projets et opportunités pour contribuer au développement de l'économie verte au Gabon.",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_168",
+      "fr": "Voir les opportunités",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx",
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_169",
+      "fr": "Transformer notre capital naturel en opportunité pour demain",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_170",
+      "fr": "Actualités récentes",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_171",
+      "fr": "Découvrez les dernières nouvelles de l",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "id": "text_172",
+      "fr": "{/* Introduction */}",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_173",
+      "fr": "L'AGADEV a pour ambition de faire du Gabon un leader de l'économie verte en Afrique, en transformant ses atouts naturels en opportunités de développement durable et en créant un modèle économique innovant qui préserve l'environnement tout en améliorant le bien-être des populations.",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_174",
+      "fr": "Pour y parvenir, nous articulons notre action autour de quatre piliers stratégiques qui se renforcent mutuellement et contribuent à la réalisation de notre vision commune.",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_175",
+      "fr": "{mission.icon}",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_176",
+      "fr": "{mission.title}",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_177",
+      "fr": "{mission.description}",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_178",
+      "fr": "Nos actions :",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_179",
+      "fr": "{action}",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_180",
+      "fr": "Voir les projets associés",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_181",
+      "fr": "))}\n      \n      {/* Call to Action */}",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_182",
+      "fr": "Participez à nos missions",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_183",
+      "fr": "Vous souhaitez contribuer à la transition écologique du Gabon ? Découvrez nos opportunités de collaboration et nos appels à projets.",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_184",
+      "fr": "Notre ambition",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "id": "text_185",
+      "fr": "{loading ? (",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx",
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_186",
+      "fr": "Chargement...",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx",
+        "src/pages/NewsDetail.tsx",
+        "src/pages/ProjectDetail.tsx",
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_187",
+      "fr": ") : news.length === 0 ? (",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "id": "text_188",
+      "fr": "Aucune actualité pour le moment",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "id": "text_189",
+      "fr": "{item.cover_image_url && (",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx",
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_190",
+      "fr": "{new Date(item.publish_date || item.created_at).toLocaleDateString(i18n.language === 'fr' ? 'fr-FR' : 'en-US')}",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "id": "text_191",
+      "fr": "{item.title}",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx",
+        "src/pages/Projects.tsx",
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_192",
+      "fr": "{item.excerpt && (",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "id": "text_193",
+      "fr": "{item.excerpt}",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "id": "text_194",
+      "fr": "Lire la suite →",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "id": "text_195",
+      "fr": "Actualités",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "id": "text_196",
+      "fr": "Suivez l",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "id": "text_197",
+      "fr": ";\n  }\n\n  if (!news) {\n    return",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_198",
+      "fr": "Actualité non trouvée",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_199",
+      "fr": ";\n  }\n\n  return (",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx",
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_200",
+      "fr": "Retour aux actualités",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_201",
+      "fr": "{news.cover_image_url && (",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_202",
+      "fr": "{new Date(news.publish_date || news.created_at).toLocaleDateString(\n                i18n.language === 'fr' ? 'fr-FR' : 'en-US',\n                { year: 'numeric', month: 'long', day: 'numeric' }\n              )}",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_203",
+      "fr": "{news.title}",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_204",
+      "fr": "{news.excerpt && (",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_205",
+      "fr": "{news.excerpt}",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_206",
+      "fr": "{/* Tabs */}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_207",
+      "fr": "Appels à projets",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_208",
+      "fr": "Offres d'emploi",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_209",
+      "fr": "{/* Content based on active tab */}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_210",
+      "fr": "{activeTab === 'projects' && (",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_211",
+      "fr": "{call.title}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_212",
+      "fr": "{call.description}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_213",
+      "fr": "Date limite",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_214",
+      "fr": "{call.deadline}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_215",
+      "fr": "Éligibilité",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_216",
+      "fr": "{call.eligibility}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_217",
+      "fr": "Financement",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_218",
+      "fr": "{call.funding}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_219",
+      "fr": "Postuler",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_220",
+      "fr": "Télécharger le dossier",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_221",
+      "fr": "{/* How to apply */}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_222",
+      "fr": "Comment soumettre un projet ?",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_223",
+      "fr": "Téléchargez le dossier d'appel à projets correspondant à votre thématique",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_224",
+      "fr": "Remplissez le formulaire de candidature en détaillant votre projet",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_225",
+      "fr": "Joignez les pièces justificatives demandées (business plan, CV, etc.)",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_226",
+      "fr": "Soumettez votre dossier complet via le formulaire en ligne ou par email à projets@agadev.ga avant la date limite",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_227",
+      "fr": "Pour toute question concernant les appels à projets, veuillez contacter notre équipe à infos@agadev-gabon.com.",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_228",
+      "fr": ")}\n          \n          {activeTab === 'jobs' && (",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_229",
+      "fr": "{job.title}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_230",
+      "fr": "{job.type}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_231",
+      "fr": "{job.location}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_232",
+      "fr": "Limite: {job.applicationDeadline}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_233",
+      "fr": "{job.description}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_234",
+      "fr": "Profil recherché",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_235",
+      "fr": "{job.requirements}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_236",
+      "fr": "{/* General application */}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_237",
+      "fr": "Candidature spontanée",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_238",
+      "fr": "Vous ne trouvez pas d'offre correspondant à votre profil, mais souhaitez rejoindre l'AGADEV ? N'hésitez pas à nous envoyer une candidature spontanée.",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_239",
+      "fr": "Envoyer une candidature spontanée",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_240",
+      "fr": "{/* Internships */}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_241",
+      "fr": "Nous proposons régulièrement des stages dans différents domaines : gestion de projets environnementaux, certification carbone, communication, juridique, etc.",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_242",
+      "fr": "Nos stages, d'une durée de 3 à 6 mois, permettent aux jeunes talents d'acquérir une expérience pratique dans le secteur de l'économie verte et de contribuer à des projets concrets.",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_243",
+      "fr": "Candidater pour un stage",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_244",
+      "fr": "{/* Testimonial */}",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_245",
+      "fr": "Ils nous ont rejoints",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_246",
+      "fr": "\"Rejoindre l'AGADEV a été une décision qui a transformé ma carrière. Ici, j'ai l'opportunité de travailler sur des projets innovants qui ont un impact réel sur l'environnement et les communautés locales. L'ambiance de travail est stimulante et l'équipe passionnée.\"",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_247",
+      "fr": "Marcel Nzamba",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_248",
+      "fr": "Chargé de projets - AGADEV",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_249",
+      "fr": "Opportunités",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_250",
+      "fr": "Découvrez nos appels à projets et offres d",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_251",
+      "fr": "Appels à projets en cours",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_252",
+      "fr": "Proposez vos projets innovants dans le domaine de l",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_253",
+      "fr": "Offres d",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_254",
+      "fr": "Rejoignez notre équipe et contribuez au développement de l",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_255",
+      "fr": "Programme de stages",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_256",
+      "fr": "Stagiaires de l",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "id": "text_257",
+      "fr": ";\n  }\n\n  if (!project) {\n    return",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_258",
+      "fr": "Projet non trouvé",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_259",
+      "fr": "Retour aux projets",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_260",
+      "fr": "{project.cover_image_url && (",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_261",
+      "fr": "{project.status}",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_262",
+      "fr": "{project.location && (",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_263",
+      "fr": "{project.location}",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_264",
+      "fr": "{project.title}",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_265",
+      "fr": "{project.description && (",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_266",
+      "fr": "{project.description}",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "id": "text_267",
+      "fr": ") : projects.length === 0 ? (",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_268",
+      "fr": "Aucun projet pour le moment",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_269",
+      "fr": "{item.status}",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_270",
+      "fr": "{item.description && (",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_271",
+      "fr": "{item.description}",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_272",
+      "fr": "Projets et Programmes",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_273",
+      "fr": "Nos initiatives pour l",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "id": "text_274",
+      "fr": "i !== index) \n        : [...prev, index]\n    );\n  };\n\n  return (",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_275",
+      "fr": "{/* Downloads Section */}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_276",
+      "fr": "{doc.category}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_277",
+      "fr": "{doc.type} • {doc.size}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_278",
+      "fr": "{doc.title}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_279",
+      "fr": "{doc.description}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_280",
+      "fr": "Télécharger",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_281",
+      "fr": "{/* FAQ Section */}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_282",
+      "fr": "{faq.question}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_283",
+      "fr": "{expandedFaqs.includes(index) ? (",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_284",
+      "fr": "{expandedFaqs.includes(index) && (",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_285",
+      "fr": "{faq.answer}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_286",
+      "fr": "{/* External Resources */}",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_287",
+      "fr": "Plateformes internationales",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_288",
+      "fr": "Programme des Nations Unies pour l'Environnement (PNUE)",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_289",
+      "fr": "Convention des Nations Unies sur la lutte contre la désertification",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_290",
+      "fr": "Convention-cadre des Nations Unies sur les changements climatiques",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_291",
+      "fr": "Fonds vert pour le climat",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_292",
+      "fr": "Textes législatifs et rapports",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_293",
+      "fr": "Code forestier du Gabon",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_294",
+      "fr": "Contribution Déterminée au niveau National (CDN) du Gabon",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_295",
+      "fr": "Plan National Climat du Gabon",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_296",
+      "fr": "Rapport sur l'état des forêts du bassin du Congo",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_297",
+      "fr": "Abonnez-vous à notre newsletter pour recevoir régulièrement les dernières ressources, études et actualités sur l'économie verte au Gabon.",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_298",
+      "fr": "S'abonner",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_299",
+      "fr": "Accédez à nos documents, guides et informations sur l",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_300",
+      "fr": "Documents à télécharger",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_301",
+      "fr": "Retrouvez ici nos rapports, guides et autres documents utiles",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_302",
+      "fr": "Foire aux questions",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_303",
+      "fr": "Réponses aux questions fréquemment posées sur l",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_304",
+      "fr": "Ressources externes",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_305",
+      "fr": "Liens vers des sites et documents utiles sur l",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_306",
+      "fr": "Votre adresse email",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "id": "text_307",
+      "fr": "{label}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_308",
+      "fr": "{value}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_309",
+      "fr": "{t('admin.dashboard')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_310",
+      "fr": "Actualités Récentes",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_311",
+      "fr": "Voir tout →",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_312",
+      "fr": "{new Date(item.created_at).toLocaleDateString('fr-FR')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx",
+        "src/pages/admin/NewsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_313",
+      "fr": "Aucune actualité",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_314",
+      "fr": "Projets Récents",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_315",
+      "fr": "Aucun projet",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "id": "text_316",
+      "fr": "{\n    e.preventDefault();\n    setError('');\n    setLoading(true);\n\n    try {\n      await login(formData);\n      navigate('/admin');\n    } catch (err) {\n      setError(err.response?.data?.error || 'Login failed');\n    } finally {\n      setLoading(false);\n    }\n  };\n\n  return (",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_317",
+      "fr": "{t('admin.login')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_318",
+      "fr": "Administration AGADEV",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_319",
+      "fr": "{error && (",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_320",
+      "fr": "{error}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_321",
+      "fr": "{t('admin.username')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_322",
+      "fr": "{t('admin.password')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_323",
+      "fr": "{loading ? 'Connexion...' : t('admin.login_button')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_324",
+      "fr": "Identifiants par défaut:",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_325",
+      "fr": "admin / Admin@2025",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "id": "text_326",
+      "fr": "{\n    setFormData({\n      title_fr: '', content_fr: '', excerpt_fr: '',\n      title_en: '', content_en: '', excerpt_en: '',\n      cover_image_url: '', published: false, auto_translate: true\n    });\n    setEditingId(null);\n    setShowForm(false);\n  };\n\n  return (",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_327",
+      "fr": "{t('admin.news_management')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_328",
+      "fr": "{t('admin.create_new')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_329",
+      "fr": "{showForm && (",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_330",
+      "fr": "{editingId ? 'Modifier' : 'Nouvelle'} Actualité",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_331",
+      "fr": "Titre (FR) *",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_332",
+      "fr": "Titre (EN)",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_333",
+      "fr": "Contenu (FR) *",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_334",
+      "fr": "Image de couverture",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_335",
+      "fr": "{formData.cover_image_url && (",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_336",
+      "fr": "{t('admin.auto_translate')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_337",
+      "fr": "{t('admin.publish')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_338",
+      "fr": "{t('admin.save')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_339",
+      "fr": "{t('admin.cancel')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_340",
+      "fr": "Titre",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_341",
+      "fr": "Date",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_342",
+      "fr": "Statut",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_343",
+      "fr": "Actions",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_344",
+      "fr": "{item.title_fr}",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_345",
+      "fr": "{item.published ? 'Publié' : 'Brouillon'}",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_346",
+      "fr": "{item.published ?",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_347",
+      "fr": "Cover",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_348",
+      "fr": "{\n    setFormData({\n      title_fr: '', description_fr: '', content_fr: '',\n      title_en: '', description_en: '', content_en: '',\n      cover_image_url: '', status: 'active', published: false, auto_translate: true\n    });\n    setEditingId(null);\n    setShowForm(false);\n  };\n\n  return (",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_349",
+      "fr": "{t('admin.projects_management')}",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_350",
+      "fr": "{editingId ? 'Modifier' : 'Nouveau'} Projet",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_351",
+      "fr": "Description (FR) *",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_352",
+      "fr": "Actif",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_353",
+      "fr": "Complété",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_354",
+      "fr": "Planifié",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_355",
+      "fr": "Statut Projet",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "id": "text_356",
+      "fr": "Publication",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    }
+  ]
+}

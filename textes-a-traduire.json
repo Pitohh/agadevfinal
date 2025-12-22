@@ -1,0 +1,182 @@
+[
+  {
+    "lineNumber": 2,
+    "key": "admin_agadev",
+    "fr": "Admin AGADEV",
+    "en": "Admin AGADEV"
+  },
+  {
+    "lineNumber": 4,
+    "key": "change_language",
+    "fr": "Change language",
+    "en": "Change language"
+  },
+  {
+    "lineNumber": 6,
+    "key": "sabliere_residence_les_paletuviers",
+    "fr": "La Sablière, Résidence Les Paletuviers, Immeuble B, B402",
+    "en": "La Sablière, Résidence Les Paletuviers, Building B, B402"
+  },
+  {
+    "lineNumber": 8,
+    "key": "linkedin",
+    "fr": "LinkedIn",
+    "en": "LinkedIn"
+  },
+  {
+    "lineNumber": 9,
+    "key": "facebook",
+    "fr": "Facebook",
+    "en": "Facebook"
+  },
+  {
+    "lineNumber": 13,
+    "key": "contact",
+    "fr": "Contact",
+    "en": "Contact"
+  },
+  {
+    "lineNumber": 16,
+    "key": "infosagadevgaboncom",
+    "fr": "infos@agadev-gabon.com",
+    "en": "infos@agadev-gabon.com"
+  },
+  {
+    "lineNumber": 23,
+    "key": "return",
+    "fr": ");\n\n  return (",
+    "en": ");\n\n  return ("
+  },
+  {
+    "lineNumber": 26,
+    "key": "href",
+    "fr": ") : href ? (",
+    "en": ") : href ? ("
+  },
+  {
+    "lineNumber": 27,
+    "key": "scyrielle_sende_etali",
+    "fr": "Scyrielle Sende Etali",
+    "en": "Scyrielle Sende Etali"
+  },
+  {
+    "lineNumber": 28,
+    "key": "menu",
+    "fr": "Menu",
+    "en": "Menu"
+  },
+  {
+    "lineNumber": 37,
+    "key": "lagence_gabonaise_pour_developpement",
+    "fr": "L'Agence Gabonaise pour le Développement de l'Économie Verte (AGADEV) est un établissement public à caractère industriel et commercial, créé en janvier 2025, sous la tutelle du Ministère de l'Économie du Gabon.",
+    "en": "The Agence Gabonaise pour le Développement de l'Économie Verte (AGADEV) is a public industrial and commercial establishment created in January 2025, under the supervision of the Gabonese Ministry of the Economy."
+  },
+  {
+    "lineNumber": 44,
+    "key": "portant_creation_organisation_fonctionnement",
+    "fr": "- Portant création, organisation et fonctionnement de l'Agence Gabonaise pour le Développement de l'Économie Verte",
+    "en": "- Portant création, organisation et fonctionnement de l'Agence Gabonaise pour le Développement de l'Économie Verte (Gabonese Agency for the Development of the Green Economy)"
+  },
+  {
+    "lineNumber": 46,
+    "key": "email",
+    "fr": "Email",
+    "en": "Email"
+  },
+  {
+    "lineNumber": 49,
+    "key": "message",
+    "fr": "Message",
+    "en": "Message"
+  },
+  {
+    "lineNumber": 75,
+    "key": "sabliere",
+    "fr": "La Sablière",
+    "en": "La Sablière"
+  },
+  {
+    "lineNumber": 124,
+    "key": "marcel_nzamba",
+    "fr": "Marcel Nzamba",
+    "en": "Marcel Nzamba"
+  },
+  {
+    "lineNumber": 183,
+    "key": "publication",
+    "fr": "Publication",
+    "en": "Publication"
+  },
+  {
+    "lineNumber": 186,
+    "key": "actif",
+    "fr": "Actif",
+    "en": "Actif"
+  },
+  {
+    "lineNumber": 187,
+    "key": "description",
+    "fr": "Description (FR) *",
+    "en": "Description (FR) *"
+  },
+  {
+    "lineNumber": 188,
+    "key": "cover",
+    "fr": "Cover",
+    "en": "Cover"
+  },
+  {
+    "lineNumber": 189,
+    "key": "statut",
+    "fr": "Statut",
+    "en": "Statut"
+  },
+  {
+    "lineNumber": 190,
+    "key": "actions",
+    "fr": "Actions",
+    "en": "Actions"
+  },
+  {
+    "lineNumber": 191,
+    "key": "date",
+    "fr": "Date",
+    "en": "Date"
+  },
+  {
+    "lineNumber": 193,
+    "key": "titre_2",
+    "fr": "Titre",
+    "en": "Titre"
+  },
+  {
+    "lineNumber": 194,
+    "key": "contenu",
+    "fr": "Contenu (FR) *",
+    "en": "Contenu (FR) *"
+  },
+  {
+    "lineNumber": 195,
+    "key": "titre_1",
+    "fr": "Titre (EN)",
+    "en": "Titre (EN)"
+  },
+  {
+    "lineNumber": 196,
+    "key": "titre",
+    "fr": "Titre (FR) *",
+    "en": "Titre (FR) *"
+  },
+  {
+    "lineNumber": 197,
+    "key": "admin_admin2025",
+    "fr": "admin / Admin@2025",
+    "en": "admin / Admin@2025"
+  },
+  {
+    "lineNumber": 198,
+    "key": "administration_agadev",
+    "fr": "Administration AGADEV",
+    "en": "Administration AGADEV"
+  }
+]

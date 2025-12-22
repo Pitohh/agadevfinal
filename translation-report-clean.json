@@ -1,0 +1,1614 @@
+{
+  "totalTexts": 198,
+  "timestamp": "2025-12-22T07:25:13.657Z",
+  "files": 19,
+  "texts": [
+    {
+      "key": "change_language",
+      "fr": "Change language",
+      "en": "",
+      "files": [
+        "src/components/LanguageSwitcher.jsx"
+      ]
+    },
+    {
+      "key": "admin_agadev",
+      "fr": "Admin AGADEV",
+      "en": "",
+      "files": [
+        "src/components/admin/AdminLayout.tsx"
+      ]
+    },
+    {
+      "key": "deconnexion",
+      "fr": "Déconnexion",
+      "en": "",
+      "files": [
+        "src/components/admin/AdminLayout.tsx"
+      ]
+    },
+    {
+      "key": "agence_gabonaise_pour_developpement",
+      "fr": "Agence Gabonaise pour le Développement de l'Économie Verte. Transformer notre capital naturel en opportunité pour demain.",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "liens_rapides",
+      "fr": "Liens rapides",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "accueil",
+      "fr": "Accueil",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "propos",
+      "fr": "À propos",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "nos_missions",
+      "fr": "Nos missions",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Home.tsx",
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "projets_programmes",
+      "fr": "Projets & Programmes",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "ressources",
+      "fr": "Ressources",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "contact",
+      "fr": "Contact",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "sabliere_residence_les_paletuviers",
+      "fr": "La Sablière, Résidence Les Paletuviers, Immeuble B, B402",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "infosagadevgaboncom",
+      "fr": "infos@agadev-gabon.com",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "restez_informe",
+      "fr": "Restez informé",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "inscrivezvous_notre_newsletter_pour",
+      "fr": "Inscrivez-vous à notre newsletter pour recevoir nos actualités et informations.",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "sinscrire",
+      "fr": "S'inscrire",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "mentions_legales",
+      "fr": "Mentions légales",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "politique_confidentialite",
+      "fr": "Politique de confidentialité",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "linkedin",
+      "fr": "LinkedIn",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "facebook",
+      "fr": "Facebook",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "key": "votre_email",
+      "fr": "Votre email",
+      "en": "",
+      "files": [
+        "src/components/layout/Footer.tsx",
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "menu",
+      "fr": "Menu",
+      "en": "",
+      "files": [
+        "src/components/layout/Navbar.tsx"
+      ]
+    },
+    {
+      "key": "savoir_plus",
+      "fr": "En savoir plus →",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx",
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "key": "return",
+      "fr": ");\n\n  return (",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx",
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "href",
+      "fr": ") : href ? (",
+      "en": "",
+      "files": [
+        "src/components/ui/Card.tsx"
+      ]
+    },
+    {
+      "key": "lagence_gabonaise_pour_developpement",
+      "fr": "L'Agence Gabonaise pour le Développement de l'Économie Verte (AGADEV) est un établissement public à caractère industriel et commercial, créé en janvier 2025, sous la tutelle du Ministère de l'Économie du Gabon.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx",
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "notre_mission_principale_est",
+      "fr": "Notre mission principale est de valoriser le capital naturel du Gabon et de promouvoir l'investissement vert, positionnant ainsi le pays comme un acteur majeur de la transition écologique en Afrique centrale.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "lagadev_joue_role_crucial",
+      "fr": "L'AGADEV joue un rôle crucial dans la stratégie nationale du Gabon pour concilier développement économique et préservation de l'environnement, notamment à travers la gestion des crédits carbone et la promotion de projets innovants.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "territoire",
+      "fr": "85% du territoire",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "couvert_forets",
+      "fr": "couvert de forêts",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "notre_vision",
+      "fr": "Notre vision",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "faire_gabon_modele_developpement",
+      "fr": "Faire du Gabon un modèle de développement économique durable en Afrique, où la croissance économique va de pair avec la préservation de l'environnement et l'amélioration du bien-être des populations.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "nous_aspirons_gabon_capital",
+      "fr": "Nous aspirons à un Gabon où le capital naturel est pleinement valorisé et contribue significativement à la prospérité nationale.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "notre_mission",
+      "fr": "Notre mission",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "mettre_oeuvre_strategie_nationale",
+      "fr": "Mettre en oeuvre la stratégie nationale pour l'économie verte en mobilisant tous les acteurs concernés : pouvoirs publics, secteur privé, société civile et partenaires internationaux.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "promouvoir_ladoption_pratiques_durables",
+      "fr": "Promouvoir l'adoption de pratiques durables dans tous les secteurs économiques et faciliter l'accès aux financements verts.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "directrice_generale",
+      "fr": "Directrice Générale",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "scyrielle_sende_etali",
+      "fr": "Scyrielle Sende Etali",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "titulaire_dun_doctorat_economie",
+      "fr": "Titulaire d'un doctorat en économie environnementale de l'Université de Cambridge et forte d'une expérience de 15 ans dans la gestion de projets environnementaux internationaux, Scyrielle Sende Etali dirige l'AGADEV depuis sa création en janvier 2025.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "sous_direction_lagadev_sest",
+      "fr": "Sous sa direction, l'AGADEV s'est engagée à transformer le capital naturel du Gabon en un véritable moteur de croissance économique durable.",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "textes_fondateurs",
+      "fr": "Textes fondateurs",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "decret_n001prmedd_janvier_2025",
+      "fr": "Décret n°001/PR/MEDD du 10 janvier 2025",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "portant_creation_organisation_fonctionnement",
+      "fr": "- Portant création, organisation et fonctionnement de l'Agence Gabonaise pour le Développement de l'Économie Verte",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "loi_n0242024_decembre_2024",
+      "fr": "Loi n°024/2024 du 5 décembre 2024",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "relative_leconomie_verte_developpement",
+      "fr": "- Relative à l'économie verte et au développement durable au Gabon",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "arrete_n0035meddcab_janvier_2025",
+      "fr": "Arrêté n°0035/MEDD/CAB du 15 janvier 2025",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "portant_nomination_des_membres",
+      "fr": "- Portant nomination des membres du Conseil d'Administration de l'AGADEV",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "propos_1",
+      "fr": "À propos de l",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "qui_sommesnous",
+      "fr": "Qui sommes-nous ?",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "foret_gabonaise",
+      "fr": "Forêt gabonaise",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx",
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "nos_valeurs",
+      "fr": "Nos valeurs",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "les_principes_qui_guident",
+      "fr": "Les principes qui guident notre action au quotidien",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "notre_direction",
+      "fr": "Notre direction",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "cadre_juridique",
+      "fr": "Cadre juridique",
+      "en": "",
+      "files": [
+        "src/pages/About.tsx"
+      ]
+    },
+    {
+      "key": "nom_complet",
+      "fr": "Nom complet",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "email",
+      "fr": "Email",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "sujet",
+      "fr": "Sujet",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "message",
+      "fr": "Message",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "envoyer",
+      "fr": "Envoyer",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "adresse",
+      "fr": "Adresse",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "sabliere",
+      "fr": "La Sablière",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "residence_les_paletuviers",
+      "fr": "Résidence Les Paletuviers",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "immeuble_b402",
+      "fr": "Immeuble B, B402",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "telephone",
+      "fr": "Téléphone",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "horaires_douverture",
+      "fr": "Horaires d'ouverture",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "lundi_vendredi_8h00_16h30",
+      "fr": "Lundi - Vendredi: 8h00 - 16h30",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "ferme_les_weekends_jours",
+      "fr": "Fermé les week-ends et jours fériés",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "carte_interactive_venir",
+      "fr": "Carte interactive (à venir)",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "des_questions_specifiques",
+      "fr": "Des questions spécifiques ?",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "notre_equipe_dexperts_est",
+      "fr": "Notre équipe d'experts est disponible pour répondre à vos questions sur nos programmes, les opportunités de financement ou les partenariats potentiels.",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "questions_sur_les_projets",
+      "fr": "Questions sur les projets",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "pour_toute_question_concernant",
+      "fr": "Pour toute question concernant nos projets en cours ou futurs.",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "partenariats",
+      "fr": "Partenariats",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "pour_discuter_dopportunites_collaboration",
+      "fr": "Pour discuter d'opportunités de collaboration avec l'AGADEV.",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "recrutement",
+      "fr": "Recrutement",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "pour_postuler_renseigner_sur",
+      "fr": "Pour postuler ou se renseigner sur nos offres d'emploi.",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "contacteznous",
+      "fr": "Contactez-nous",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "notre_equipe_est_votre",
+      "fr": "Notre équipe est à votre disposition pour répondre à vos questions",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "envoyeznous_message",
+      "fr": "Envoyez-nous un message",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "nous_vous_repondrons_dans",
+      "fr": "Nous vous répondrons dans les meilleurs délais",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "votre_nom",
+      "fr": "Votre nom",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "sujet_votre_message",
+      "fr": "Sujet de votre message",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "votre_message",
+      "fr": "Votre message",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "nos_coordonnees",
+      "fr": "Nos coordonnées",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "plusieurs_facons_nous_contacter",
+      "fr": "Plusieurs façons de nous contacter",
+      "en": "",
+      "files": [
+        "src/pages/Contact.tsx"
+      ]
+    },
+    {
+      "key": "bienvenue_lagadev",
+      "fr": "Bienvenue à l'AGADEV",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "notre_mission_est_positionner",
+      "fr": "Notre mission est de positionner le Gabon comme un acteur majeur de la transition écologique en Afrique centrale en valorisant notre capital naturel et en promouvant l'investissement vert.",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "savoir_plus_1",
+      "fr": "En savoir plus",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "nous_contacter",
+      "fr": "Nous contacter",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx",
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "decouvrir_toutes_nos_missions",
+      "fr": "Découvrir toutes nos missions",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "lire_suite",
+      "fr": "Lire la suite",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "voir_toutes_les_actualites",
+      "fr": "Voir toutes les actualités",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "nos_partenaires",
+      "fr": "Nos partenaires",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "participez_transition_ecologique",
+      "fr": "Participez à la transition écologique",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "decouvrez_nos_appels_projets",
+      "fr": "Découvrez nos appels à projets et opportunités pour contribuer au développement de l'économie verte au Gabon.",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "voir_les_opportunites",
+      "fr": "Voir les opportunités",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx",
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "transformer_notre_capital_naturel",
+      "fr": "Transformer notre capital naturel en opportunité pour demain",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "actualites_recentes",
+      "fr": "Actualités récentes",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "decouvrez_les_dernieres_nouvelles",
+      "fr": "Découvrez les dernières nouvelles de l",
+      "en": "",
+      "files": [
+        "src/pages/Home.tsx"
+      ]
+    },
+    {
+      "key": "lagadev_pour_ambition_faire",
+      "fr": "L'AGADEV a pour ambition de faire du Gabon un leader de l'économie verte en Afrique, en transformant ses atouts naturels en opportunités de développement durable et en créant un modèle économique innovant qui préserve l'environnement tout en améliorant le bien-être des populations.",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "pour_parvenir_nous_articulons",
+      "fr": "Pour y parvenir, nous articulons notre action autour de quatre piliers stratégiques qui se renforcent mutuellement et contribuent à la réalisation de notre vision commune.",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "nos_actions",
+      "fr": "Nos actions :",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "voir_les_projets_associes",
+      "fr": "Voir les projets associés",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "participez_nos_missions",
+      "fr": "Participez à nos missions",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "vous_souhaitez_contribuer_transition",
+      "fr": "Vous souhaitez contribuer à la transition écologique du Gabon ? Découvrez nos opportunités de collaboration et nos appels à projets.",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "notre_ambition",
+      "fr": "Notre ambition",
+      "en": "",
+      "files": [
+        "src/pages/Missions.tsx"
+      ]
+    },
+    {
+      "key": "chargement",
+      "fr": "Chargement...",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx",
+        "src/pages/NewsDetail.tsx",
+        "src/pages/ProjectDetail.tsx",
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "key": "aucune_actualite_pour_moment",
+      "fr": "Aucune actualité pour le moment",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "key": "lire_suite_1",
+      "fr": "Lire la suite →",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "key": "actualites",
+      "fr": "Actualités",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "key": "suivez",
+      "fr": "Suivez l",
+      "en": "",
+      "files": [
+        "src/pages/News.tsx"
+      ]
+    },
+    {
+      "key": "actualite_non_trouvee",
+      "fr": "Actualité non trouvée",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "key": "retour_aux_actualites",
+      "fr": "Retour aux actualités",
+      "en": "",
+      "files": [
+        "src/pages/NewsDetail.tsx"
+      ]
+    },
+    {
+      "key": "appels_projets",
+      "fr": "Appels à projets",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "offres_demploi",
+      "fr": "Offres d'emploi",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "date_limite",
+      "fr": "Date limite",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "eligibilite",
+      "fr": "Éligibilité",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "financement",
+      "fr": "Financement",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "postuler",
+      "fr": "Postuler",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "telecharger_dossier",
+      "fr": "Télécharger le dossier",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "comment_soumettre_projet",
+      "fr": "Comment soumettre un projet ?",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "telechargez_dossier_dappel_projets",
+      "fr": "Téléchargez le dossier d'appel à projets correspondant à votre thématique",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "remplissez_formulaire_candidature_detaillant",
+      "fr": "Remplissez le formulaire de candidature en détaillant votre projet",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "joignez_les_pieces_justificatives",
+      "fr": "Joignez les pièces justificatives demandées (business plan, CV, etc.)",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "soumettez_votre_dossier_complet",
+      "fr": "Soumettez votre dossier complet via le formulaire en ligne ou par email à projets@agadev.ga avant la date limite",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "pour_toute_question_concernant_1",
+      "fr": "Pour toute question concernant les appels à projets, veuillez contacter notre équipe à infos@agadev-gabon.com.",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "profil_recherche",
+      "fr": "Profil recherché",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "candidature_spontanee",
+      "fr": "Candidature spontanée",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "vous_trouvez_pas_doffre",
+      "fr": "Vous ne trouvez pas d'offre correspondant à votre profil, mais souhaitez rejoindre l'AGADEV ? N'hésitez pas à nous envoyer une candidature spontanée.",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "envoyer_une_candidature_spontanee",
+      "fr": "Envoyer une candidature spontanée",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "nous_proposons_regulierement_des",
+      "fr": "Nous proposons régulièrement des stages dans différents domaines : gestion de projets environnementaux, certification carbone, communication, juridique, etc.",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "nos_stages_dune_duree",
+      "fr": "Nos stages, d'une durée de 3 à 6 mois, permettent aux jeunes talents d'acquérir une expérience pratique dans le secteur de l'économie verte et de contribuer à des projets concrets.",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "candidater_pour_stage",
+      "fr": "Candidater pour un stage",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "ils_nous_ont_rejoints",
+      "fr": "Ils nous ont rejoints",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "rejoindre_lagadev_ete_une",
+      "fr": "\"Rejoindre l'AGADEV a été une décision qui a transformé ma carrière. Ici, j'ai l'opportunité de travailler sur des projets innovants qui ont un impact réel sur l'environnement et les communautés locales. L'ambiance de travail est stimulante et l'équipe passionnée.\"",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "marcel_nzamba",
+      "fr": "Marcel Nzamba",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "charge_projets_agadev",
+      "fr": "Chargé de projets - AGADEV",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "opportunites",
+      "fr": "Opportunités",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "decouvrez_nos_appels_projets_1",
+      "fr": "Découvrez nos appels à projets et offres d",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "appels_projets_cours",
+      "fr": "Appels à projets en cours",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "proposez_vos_projets_innovants",
+      "fr": "Proposez vos projets innovants dans le domaine de l",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "offres",
+      "fr": "Offres d",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "rejoignez_notre_equipe_contribuez",
+      "fr": "Rejoignez notre équipe et contribuez au développement de l",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "programme_stages",
+      "fr": "Programme de stages",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "stagiaires",
+      "fr": "Stagiaires de l",
+      "en": "",
+      "files": [
+        "src/pages/Opportunities.tsx"
+      ]
+    },
+    {
+      "key": "projet_non_trouve",
+      "fr": "Projet non trouvé",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "key": "retour_aux_projets",
+      "fr": "Retour aux projets",
+      "en": "",
+      "files": [
+        "src/pages/ProjectDetail.tsx"
+      ]
+    },
+    {
+      "key": "aucun_projet_pour_moment",
+      "fr": "Aucun projet pour le moment",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "key": "projets_programmes_1",
+      "fr": "Projets et Programmes",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "key": "nos_initiatives_pour",
+      "fr": "Nos initiatives pour l",
+      "en": "",
+      "files": [
+        "src/pages/Projects.tsx"
+      ]
+    },
+    {
+      "key": "telecharger",
+      "fr": "Télécharger",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "plateformes_internationales",
+      "fr": "Plateformes internationales",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "programme_des_nations_unies",
+      "fr": "Programme des Nations Unies pour l'Environnement (PNUE)",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "convention_des_nations_unies",
+      "fr": "Convention des Nations Unies sur la lutte contre la désertification",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "conventioncadre_des_nations_unies",
+      "fr": "Convention-cadre des Nations Unies sur les changements climatiques",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "fonds_vert_pour_climat",
+      "fr": "Fonds vert pour le climat",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "textes_legislatifs_rapports",
+      "fr": "Textes législatifs et rapports",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "code_forestier_gabon",
+      "fr": "Code forestier du Gabon",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "contribution_determinee_niveau_national",
+      "fr": "Contribution Déterminée au niveau National (CDN) du Gabon",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "plan_national_climat_gabon",
+      "fr": "Plan National Climat du Gabon",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "rapport_sur_letat_des",
+      "fr": "Rapport sur l'état des forêts du bassin du Congo",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "abonnezvous_notre_newsletter_pour",
+      "fr": "Abonnez-vous à notre newsletter pour recevoir régulièrement les dernières ressources, études et actualités sur l'économie verte au Gabon.",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "sabonner",
+      "fr": "S'abonner",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "accedez_nos_documents_guides",
+      "fr": "Accédez à nos documents, guides et informations sur l",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "documents_telecharger",
+      "fr": "Documents à télécharger",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "retrouvez_ici_nos_rapports",
+      "fr": "Retrouvez ici nos rapports, guides et autres documents utiles",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "foire_aux_questions",
+      "fr": "Foire aux questions",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "reponses_aux_questions_frequemment",
+      "fr": "Réponses aux questions fréquemment posées sur l",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "ressources_externes",
+      "fr": "Ressources externes",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "liens_vers_des_sites",
+      "fr": "Liens vers des sites et documents utiles sur l",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "votre_adresse_email",
+      "fr": "Votre adresse email",
+      "en": "",
+      "files": [
+        "src/pages/Resources.tsx"
+      ]
+    },
+    {
+      "key": "actualites_recentes_1",
+      "fr": "Actualités Récentes",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "voir_tout",
+      "fr": "Voir tout →",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "aucune_actualite",
+      "fr": "Aucune actualité",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "projets_recents",
+      "fr": "Projets Récents",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "aucun_projet",
+      "fr": "Aucun projet",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "total_actualites",
+      "fr": "Total Actualités",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "actualites_publiees",
+      "fr": "Actualités Publiées",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "total_projets",
+      "fr": "Total Projets",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "projets_publies",
+      "fr": "Projets Publiés",
+      "en": "",
+      "files": [
+        "src/pages/admin/Dashboard.tsx"
+      ]
+    },
+    {
+      "key": "administration_agadev",
+      "fr": "Administration AGADEV",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "key": "identifiants_par_defaut",
+      "fr": "Identifiants par défaut:",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "key": "admin_admin2025",
+      "fr": "admin / Admin@2025",
+      "en": "",
+      "files": [
+        "src/pages/admin/Login.tsx"
+      ]
+    },
+    {
+      "key": "titre",
+      "fr": "Titre (FR) *",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "titre_1",
+      "fr": "Titre (EN)",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "contenu",
+      "fr": "Contenu (FR) *",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "image_couverture",
+      "fr": "Image de couverture",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "titre_2",
+      "fr": "Titre",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "date",
+      "fr": "Date",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx"
+      ]
+    },
+    {
+      "key": "statut",
+      "fr": "Statut",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "actions",
+      "fr": "Actions",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "cover",
+      "fr": "Cover",
+      "en": "",
+      "files": [
+        "src/pages/admin/NewsManager.tsx",
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "description",
+      "fr": "Description (FR) *",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "actif",
+      "fr": "Actif",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "complete",
+      "fr": "Complété",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "planifie",
+      "fr": "Planifié",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "statut_projet",
+      "fr": "Statut Projet",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    },
+    {
+      "key": "publication",
+      "fr": "Publication",
+      "en": "",
+      "files": [
+        "src/pages/admin/ProjectsManager.tsx"
+      ]
+    }
+  ]
+}

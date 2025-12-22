@@ -1,59 +1,57 @@
 import React from 'react';
-import clsx from 'clsx';
-import Button from './Button';
+import { Link } from 'react-router-dom';
 
 interface BannerProps {
   title: string;
   subtitle?: string;
-  backgroundImage: string;
+  backgroundImage?: string;
   buttonText?: string;
   buttonLink?: string;
-  overlay?: boolean;
-  height?: 'small' | 'medium' | 'large' | 'full';
-  className?: string;
+  height?: 'small' | 'medium' | 'large';
 }
 
-const Banner: React.FC<BannerProps> = ({
-  title,
-  subtitle,
+const Banner: React.FC<BannerProps> = ({ 
+  title, 
+  subtitle, 
   backgroundImage,
   buttonText,
   buttonLink,
-  overlay = true,
-  height = 'medium',
-  className = '',
+  height = 'medium'
 }) => {
+  const heightClasses = {
+    small: 'py-16',
+    medium: 'py-24',
+    large: 'py-32 md:py-40'
+  };
+
   return (
     <div 
-      className={clsx(
-        'relative flex items-center justify-center bg-center bg-cover bg-no-repeat',
-        {
-          'h-[300px] md:h-[400px]': height === 'small',
-          'h-[400px] md:h-[500px]': height === 'medium',
-          'h-[500px] md:h-[600px]': height === 'large',
-          'h-screen': height === 'full',
-        },
-        className
-      )}
-      style={{ backgroundImage: `url(${backgroundImage})` }}
+      className={`relative bg-gradient-to-r from-green-forest to-green-medium ${heightClasses[height]} overflow-hidden`}
+      style={backgroundImage ? {
+        backgroundImage: `linear-gradient(rgba(0, 75, 151, 0.7), rgba(28, 81, 55, 0.8)), url(${backgroundImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center'
+      } : {}}
     >
-      {overlay && (
-        <div className="absolute inset-0 bg-blue-black/60" />
-      )}
-      <div className="container-custom relative z-10 text-center text-white">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 animate-fade-in">
-          {title}
-        </h1>
-        {subtitle && (
-          <p className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 animate-slide-up text-white">
-            {subtitle}
-          </p>
-        )}
-        {buttonText && buttonLink && (
-          <Button to={buttonLink} variant="primary" size="lg">
-            {buttonText}
-          </Button>
-        )}
+      <div className="container mx-auto px-4 relative z-10">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 leading-loose tracking-wide">
+            {title}
+          </h1>
+          {subtitle && (
+            <p className="text-xl md:text-2xl text-white/90 mb-8">
+              {subtitle}
+            </p>
+          )}
+          {buttonText && buttonLink && (
+            <Link
+              to={buttonLink}
+              className="inline-block bg-copper hover:bg-copper/90 text-blue-black font-semibold px-8 py-3 rounded-lg transition-colors"
+            >
+              {buttonText}
+            </Link>
+          )}
+        </div>
       </div>
     </div>
   );
