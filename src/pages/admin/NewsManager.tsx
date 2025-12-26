@@ -30,14 +30,20 @@ const NewsManager = () => {
   const handleImageUpload = async (e) => {
     const file = e.target.files[0];
     if (!file) return;
+    
     setUploading(true);
     try {
-      const fd = new FormData();
-      fd.append('file', file);
-      fd.append('entity_type', 'news');
-      const res = await uploadFile(fd);
-      setFormData({ ...formData, cover_image_url: res.data.media.file_url });
+      console.log('📤 Uploading image:', file.name);
+      const res = await uploadFile(file);
+      
+      if (res.data.success) {
+        setFormData({ ...formData, cover_image_url: res.data.url });
+        console.log('✅ Upload successful:', res.data.url);
+      } else {
+        throw new Error('Upload failed');
+      }
     } catch (error) {
+      console.error('❌ Upload error:', error);
       alert('Erreur upload: ' + (error.response?.data?.error || error.message));
     } finally {
       setUploading(false);
@@ -144,8 +150,12 @@ const NewsManager = () => {
               <label className="block text-sm font-medium text-blue-black mb-2">Image de couverture</label>
               <input type="file" accept="image/*" onChange={handleImageUpload}
                 className="w-full px-4 py-2 border rounded-lg" disabled={uploading} />
+              {uploading && <p className="text-sm text-blue-500 mt-1">⏳ Upload en cours...</p>}
               {formData.cover_image_url && (
-                <img src={formData.cover_image_url} alt="Cover" className="mt-2 h-32 rounded" />
+                <div className="mt-2">
+                  <img src={formData.cover_image_url} alt="Cover" className="h-32 rounded" />
+                  <p className="text-xs text-gray-500 mt-1">✅ Image uploadée</p>
+                </div>
               )}
             </div>
 
@@ -178,7 +188,7 @@ const NewsManager = () => {
         </div>
       )}
 
-      <div className="bg-white rounded-lg shadow-md">
+      <div className="bg-white rounded-lg shadow-md overflow-x-auto">
         <table className="w-full">
           <thead className="bg-beige-light/40">
             <tr>

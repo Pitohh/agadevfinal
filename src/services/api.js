@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 const api = axios.create({
   baseURL: API_URL,
@@ -39,9 +39,26 @@ export const updateProject = (id, data) => api.put(`/projects/${id}`, data);
 export const deleteProject = (id) => api.delete(`/projects/${id}`);
 export const toggleProjectPublish = (id, published) => api.patch(`/projects/${id}/publish`, { published });
 
-// Media
-export const uploadFile = (formData) => api.post('/media/upload', formData, {
-  headers: { 'Content-Type': 'multipart/form-data' }
-});
+// Upload - NOUVELLE ROUTE
+export const uploadFile = (file) => {
+  const formData = new FormData();
+  formData.append('file', file);
+  
+  return api.post('/upload', formData, {
+    headers: { 'Content-Type': 'multipart/form-data' }
+  });
+};
+
+// Upload multiple files
+export const uploadMultipleFiles = (files) => {
+  const formData = new FormData();
+  files.forEach(file => {
+    formData.append('files', file);
+  });
+  
+  return api.post('/upload/multiple', formData, {
+    headers: { 'Content-Type': 'multipart/form-data' }
+  });
+};
 
 export default api;
