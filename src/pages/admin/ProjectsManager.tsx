@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Plus, Edit, Trash2, Eye, EyeOff } from 'lucide-react';
+import { Plus, Edit, Trash2, Eye, EyeOff, FileText } from 'lucide-react';
 import { getAllProjectsAdmin, createProject, updateProject, deleteProject, toggleProjectPublish, uploadFile } from '../../services/api';
 
 const ProjectsManager = () => {
@@ -11,9 +11,11 @@ const ProjectsManager = () => {
   const [formData, setFormData] = useState({
     title_fr: '', description_fr: '', content_fr: '',
     title_en: '', description_en: '', content_en: '',
-    cover_image_url: '', status: 'active', published: false, auto_translate: true
+    cover_image_url: '', presentation_file_url: '',
+    status: 'active', published: false, auto_translate: true
   });
-  const [uploading, setUploading] = useState(false);
+  const [uploadingImage, setUploadingImage] = useState(false);
+  const [uploadingFile, setUploadingFile] = useState(false);
 
   useEffect(() => { loadProjects(); }, []);
 
@@ -31,22 +33,45 @@ const ProjectsManager = () => {
     const file = e.target.files[0];
     if (!file) return;
     
-    setUploading(true);
+    setUploadingImage(true);
     try {
       console.log('📤 Uploading image:', file.name);
       const res = await uploadFile(file);
       
       if (res.data.success) {
         setFormData({ ...formData, cover_image_url: res.data.url });
-        console.log('✅ Upload successful:', res.data.url);
+        console.log('✅ Image upload successful:', res.data.url);
       } else {
         throw new Error('Upload failed');
       }
     } catch (error) {
-      console.error('❌ Upload error:', error);
-      alert('Erreur upload: ' + (error.response?.data?.error || error.message));
+      console.error('❌ Image upload error:', error);
+      alert('Erreur upload image: ' + (error.response?.data?.error || error.message));
     } finally {
-      setUploading(false);
+      setUploadingImage(false);
+    }
+  };
+
+  const handleFileUpload = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    
+    setUploadingFile(true);
+    try {
+      console.log('📤 Uploading presentation file:', file.name);
+      const res = await uploadFile(file);
+      
+      if (res.data.success) {
+        setFormData({ ...formData, presentation_file_url: res.data.url });
+        console.log('✅ File upload successful:', res.data.url);
+      } else {
+        throw new Error('Upload failed');
+      }
+    } catch (error) {
+      console.error('❌ File upload error:', error);
+      alert('Erreur upload fichier: ' + (error.response?.data?.error || error.message));
+    } finally {
+      setUploadingFile(false);
     }
   };
 
@@ -72,7 +97,9 @@ const ProjectsManager = () => {
       title_fr: item.title_fr || '', description_fr: item.description_fr || '',
       content_fr: item.content_fr || '', title_en: item.title_en || '',
       description_en: item.description_en || '', content_en: item.content_en || '',
-      cover_image_url: item.cover_image_url || '', status: item.status || 'active',
+      cover_image_url: item.cover_image_url || '',
+      presentation_file_url: item.presentation_file_url || '',
+      status: item.status || 'active',
       published: item.published || false, auto_translate: false
     });
     setEditingId(item.id);
@@ -103,10 +130,16 @@ const ProjectsManager = () => {
     setFormData({
       title_fr: '', description_fr: '', content_fr: '',
       title_en: '', description_en: '', content_en: '',
-      cover_image_url: '', status: 'active', published: false, auto_translate: true
+      cover_image_url: '', presentation_file_url: '',
+      status: 'active', published: false, auto_translate: true
     });
     setEditingId(null);
     setShowForm(false);
+  };
+
+  const getFileName = (url) => {
+    if (!url) return '';
+    return url.split('/').pop().split('?')[0];
   };
 
   return (
@@ -153,17 +186,51 @@ const ProjectsManager = () => {
                 className="w-full px-4 py-2 border rounded-lg h-32" required />
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-blue-black mb-2">Image de couverture</label>
-              <input type="file" accept="image/*" onChange={handleImageUpload}
-                className="w-full px-4 py-2 border rounded-lg" disabled={uploading} />
-              {uploading && <p className="text-sm text-blue-500 mt-1">⏳ Upload en cours...</p>}
-              {formData.cover_image_url && (
-                <div className="mt-2">
-                  <img src={formData.cover_image_url} alt="Cover" className="h-32 rounded" />
-                  <p className="text-xs text-gray-500 mt-1">✅ Image uploadée</p>
-                </div>
-              )}
+            <div className="grid grid-cols-2 gap-4">
+              {/* Image de couverture */}
+              <div>
+                <label className="block text-sm font-medium text-blue-black mb-2">Image de couverture</label>
+                <input type="file" accept="image/*" onChange={handleImageUpload}
+                  className="w-full px-4 py-2 border rounded-lg" disabled={uploadingImage} />
+                {uploadingImage && <p className="text-sm text-blue-500 mt-1">⏳ Upload en cours...</p>}
+                {formData.cover_image_url && (
+                  <div className="mt-2">
+                    <img src={formData.cover_image_url} alt="Cover" className="h-32 rounded" />
+                    <p className="text-xs text-gray-500 mt-1">✅ Image uploadée</p>
+                  </div>
+                )}
+              </div>
+
+              {/* Fichier de présentation */}
+              <div>
+                <label className="block text-sm font-medium text-blue-black mb-2">
+                  Fichier de présentation (PDF, Word, PPT)
+                </label>
+                <input 
+                  type="file" 
+                  accept=".pdf,.doc,.docx,.ppt,.pptx" 
+                  onChange={handleFileUpload}
+                  className="w-full px-4 py-2 border rounded-lg" 
+                  disabled={uploadingFile} 
+                />
+                {uploadingFile && <p className="text-sm text-blue-500 mt-1">⏳ Upload en cours...</p>}
+                {formData.presentation_file_url && (
+                  <div className="mt-2 flex items-center space-x-2">
+                    <FileText className="text-green-medium" size={24} />
+                    <div className="flex-1">
+                      <p className="text-xs text-gray-500 truncate">{getFileName(formData.presentation_file_url)}</p>
+                      <a 
+                        href={formData.presentation_file_url} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-xs text-blue-500 hover:underline"
+                      >
+                        📥 Télécharger
+                      </a>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
 
             <div>
@@ -211,6 +278,7 @@ const ProjectsManager = () => {
           <thead className="bg-beige-light/40">
             <tr>
               <th className="px-6 py-3 text-left text-blue-black font-semibold">Titre</th>
+              <th className="px-6 py-3 text-left text-blue-black font-semibold">Fichier</th>
               <th className="px-6 py-3 text-left text-blue-black font-semibold">Statut Projet</th>
               <th className="px-6 py-3 text-left text-blue-black font-semibold">Publication</th>
               <th className="px-6 py-3 text-right text-blue-black font-semibold">Actions</th>
@@ -220,6 +288,17 @@ const ProjectsManager = () => {
             {projectsList.map((item) => (
               <tr key={item.id} className="border-b hover:bg-beige-light/20">
                 <td className="px-6 py-4">{item.title_fr}</td>
+                <td className="px-6 py-4">
+                  {item.presentation_file_url ? (
+                    <a href={item.presentation_file_url} target="_blank" rel="noopener noreferrer"
+                       className="text-blue-500 hover:underline flex items-center space-x-1">
+                      <FileText size={16} />
+                      <span>📥</span>
+                    </a>
+                  ) : (
+                    <span className="text-gray-400">-</span>
+                  )}
+                </td>
                 <td className="px-6 py-4">
                   <span className="text-sm text-gray-600 capitalize">{item.status}</span>
                 </td>
